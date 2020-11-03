@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "title": "Why should I use a VPN?",
+            "content": "<p>If you browse online, you simply need a VPN. A reliable VPN helps you protect yourself from <strong>online tracking, censorship, and cybercrime</strong>. It also allows you to avoid bandwidth throttling and access your favorite content securely, no matter where you are.</p><p>However, <strong>don’t be tempted by free VPN services as they often collect and sell their users’ data</strong>. Make sure to choose a service that has a no-logs policy and is trusted by millions of internet users.</p>"
+        },
+        {
+            "title": "Will using a VPN slow down my internet speed?",
+            "content": "<p>This typically depends on several factors, first and foremost, the quality of the VPN service. The best VPNs will have servers with <strong>unlimited download speeds</strong> and will avoid throttling (the intentional slowing or speeding of an internet service by an Internet service provider). The next factor to consider is the <strong>distance between your physical location and the server</strong> to which you are connecting. If you pick a server that is relatively close to you, your internet speed will be faster than if you had picked a server halfway across the world. Additional factors include the level of encryption and protocols you select.</p>"
+        },
+        {
+            "title": "Free VPNs or paid VPNs?",
+            "content": "<p><strong>Both paid and free VPNs will most likely get the job done, however, free VPNs are notorious for storing user data</strong>. Free VPN services typically make their profits by selling user data to corporations for advertising purposes. If you want to avoid this at all costs, your best bet will be to purchase a VPN subscription from a reliable provider with a very transparent zero-logging policy.</p>"
+        },
+        {
+            "title": "Can I use my VPN on multiple devices?",
+            "content": "<p><strong>Most of the top VPNs let you use your subscription on multiple devices</strong>. If you are sharing the subscription, or have multiple computers, phones, or tablets, be sure to check the specific allowance of your service before you make your purchase. Another tip to keep in mind is that some routers have VPN capabilities, meaning you can simply connect your router to your VPN and then all the devices on your home network will be connected as well. If this interests you, check to see that your VPN service supports this and make sure your router is compatible with the software.</p>"
+        },
+        {
+            "title": "How we rate VPNs?",
+            "content": "<p>Finding the best VPN to keep you safe online feels impossible. There are hundreds of VPNs out there, and each one claims it’s the best. Our experts have spent months <strong>carefully testing over 50+ services</strong> to determine which ones do what they promise—and <strong>do it well</strong>. We connected to these VPNs from all over the world, with researchers running tests in internet-restricted countries, <strong>testing their security, their reliability, and the speed of their connections</strong>.</p><p>We even made some calls to Google and PayPal to investigate rumors surrounding some VPNs. <strong>We also delisted several shady VPNs</strong>: While they hadn’t yet been caught sharing user data, we’re worried that soon, they will.</p><p>Our honest, comprehensive reviews will help you choose the right VPN for you, whether you want to stream Netflix, get around government censorship, or stay completely anonymous online.</p><p>Our honest, comprehensive reviews will help you choose the right VPN for you, whether you want to <strong>stream Netflix, get around government censorship, or stay completely anonymous online</strong>.</p>"
+            
+        }
+
+    ]
+}

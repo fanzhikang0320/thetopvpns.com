@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+
+<head {{ HEAD_ATTRS }}>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5C8ZPLQ');</script>
+  <!-- End Google Tag Manager -->
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NTZ4SJ3E49"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NTZ4SJ3E49');
+
+  </script>
+
+<script>
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"56266434"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"17397643"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+
+window.uetq = window.uetq || [];
+
+function execute() {
+  
+  window.uetq.push('event', 'click', {'event_category': 'button', 'event_label': 'na', 'event_value': '1'});
+}
+
+</script>
+
+<script>
+  (function(win) {
+    		var tid;
+    		function refreshRem() {
+    			let designSize = 1920; // 设计图尺寸
+    			let html = document.documentElement;
+    			let wW = html.clientWidth;// 窗口宽度
+          // let rem = wW * 100 / designSize; 
+          let rem = 100;
+          if (wW > 750 && wW < 1024) {
+            rem = 65
+          } else if (wW >= 1024 && wW < 1100) {
+            rem = 70
+          } else if (wW >= 1100 && wW < 1280) {
+            rem = 80
+          } else if (wW >= 1280 && wW < 1366) {
+            rem = 85
+          } else if (wW >= 1366 && wW < 1400) {
+            rem = 90
+          } else if (wW >= 1400 && wW < 1680) {
+            rem = 90
+          } else if (wW >= 1680 && wW < 1920) {
+            rem = 100
+          } else if (wW >= 1920) {
+            rem = 100
+          } 
+    			document.documentElement.style.fontSize = rem + 'px';
+    	    }
+	     
+	    win.addEventListener('resize', function() {
+	    	clearTimeout(tid);
+	    	tid = setTimeout(refreshRem, 300);
+	    }, false);
+	    win.addEventListener('pageshow', function(e) {
+	    	if (e.persisted) {
+	    		clearTimeout(tid);
+	    		tid = setTimeout(refreshRem, 300);
+	    	}
+	    }, false);
+
+	    refreshRem();
+
+	})(window);
+</script>
+
+  <script type="text/javascript">
+    function viewport() {
+      var phoneWidth = parseInt(window.screen.width);
+      var phoneScale = phoneWidth / 414;
+      var ua = navigator.userAgent;
+      if (/Android (\d+\.\d+)/.test(ua)) {
+        var version = parseFloat(RegExp.$1);
+        if (ua.toLowerCase().indexOf("qq") > -1) {
+          document.write('<meta name="viewport" content="width=414, minimum-scale = ' + phoneScale +
+            ', maximum-scale = ' + phoneScale + ', target-densitydpi=320">');
+          return;
+        }
+        if (version > 2.3) {
+          document.write('<meta name="viewport" content="width=414, minimum-scale = ' + phoneScale +
+            ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+        } else {
+          document.write('<meta name="viewport" content="width=414, target-densitydpi=device-dpi">');
+        }
+      } else {
+        document.write('<meta name="viewport" content="width=414, user-scalable=no, target-densitydpi=device-dpi">');
+      }
+    }
+    viewport();
+
+  </script>
+
+  {{ HEAD }}
+
+</head>
+
+<body {{ BODY_ATTRS }}>
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5C8ZPLQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <script type='text/javascript'>
+    window.__lo_site_id = 254638;
+
+    (function () {
+      var wa = document.createElement('script');
+      wa.type = 'text/javascript';
+      wa.async = true;
+      wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wa, s);
+    })();
+
+  </script>
+  {{ APP }}
+
+
+</body>
+
+</html>
