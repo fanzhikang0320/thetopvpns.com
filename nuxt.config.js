@@ -29,17 +29,6 @@ export default {
     '@/assets/css/init.scss'
   ],
 
- publicRuntimeConfig: {
-    axios: {
-      browserBaseURL: ''
-    }
-  },
-
-  privateRuntimeConfig: {
-    axios: {
-      baseURL: ''
-    }
-  },
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     {src: '@/plugins/element-ui',ssr: true}
@@ -67,11 +56,19 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     vendor: ['element-ui'],
-    postcss: [
-      require('postcss-px2rem')({
-        remUnit: 100
-      })
-    ],
+    // postcss: [
+    //   require('postcss-px2rem')({
+    //     remUnit: 100
+    //   })
+    // ],
+    postcss: {
+      plugins: {
+        'autoprefixer': true,
+        'postcss-px2rem': {
+          remUnit: 100
+        }
+      }
+    },
     plugins: [
       new webpack.ProvidePlugin({
         '$': 'jquery'
@@ -87,9 +84,29 @@ export default {
           }
         ]
       ],
+      
       comments: true
     },
+    'html.minify': {
+      collapseBooleanAttributes: true,
+      collapseWhitespace: true,
+      decodeEntities: true,
+      minifyCSS: true,
+      minifyJS: true,
+      processConditionalComments: true,
+      removeAttributeQuotes: false,
+      removeComments: true,
+      removeEmptyAttributes: true,
+      removeOptionalTags: false,
+      removeRedundantAttributes: true,
+      removeScriptTypeAttributes: false,
+      removeStyleLinkTypeAttributes: false,
+      removeTagWhitespace: false,
+      sortClassName: false,
+      trimCustomFragments: true,
+      useShortDoctype: true
+    },
     transpile: [/^element-ui/],
-    extractCSS: {allChunks: true}
+    extractCSS: true
   }
 }

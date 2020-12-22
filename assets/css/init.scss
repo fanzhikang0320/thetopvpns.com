@@ -17,14 +17,23 @@ table { border-collapse:collapse; border-spacing:0; }
 @font-face {
     font-family: 'Montserrat-Light';
     
-    src: url(../font/Montserrat-Light-6.eot);
-    src: url('../font/Montserrat-Light-6.ttf'),
+    src: url('../font/Montserrat-Light-6.eot');
+    src: url('../font/Montserrat-Light-6.ttf') format('truetype'),
         url('../font/Montserrat-Light-6.woff') format('woff'),
         url('../font/Montserrat-Light-6.woff2') format('woff2'),
         url('../font/Montserrat-Light-6.svg') format('svg');
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../font/Montserrat-Bold-3.eot');
+    src: url('../font/Montserrat-Bold-3.ttf') format('truetype'),
+            url('../font/Montserrat-Bold-3.woff') format('woff'),
+        url('../font/Montserrat-Bold-3.woff2') format('woff2'),
+        url('../font/Montserrat-Bold-3.otf') format('opentype'),
+        url('../font/Montserrat-Bold-3.svg') format('svg');
+    font-display: swap;
+}
 @font-face {
     font-family: 'Raleway';
     font-display: swap;

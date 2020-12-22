@@ -3,22 +3,43 @@
     <div class="page_top_container">
       <div class="banner_container" id="index_banner">
         <div class="banner_content">
-          <h1 class="page_title">Top 10 VPN of 2020</h1>
+          <h1 class="page_title">Top {{productData.length}} VPN of 2020</h1>
           <p>Let Us Help You Find The Perfect VPN Provider</p>
           <p>Before you opt to buy VPN services, you'll want to make sure that the ones you're considering offer as many of the above benefits and features as possible. </p>
-          <p>We Top VPN compared the best VPN providers for you.</p>
+          <p>Top VPN compared the best VPN providers for you.</p>
         </div>
       </div>
       <div class="supportted_devices-container">
-        <img src="@/assets/image/DAZN.jpg" alt="DAZN">
-        <img src="@/assets/image/SHOWTIME.jpg" alt="SHOWTIME">
-        <img src="@/assets/image/NETFLIX.jpg" alt="NETFLIX">
-        <img src="@/assets/image/PRIME.jpg" alt="PRIME VIDEO">
-        <img src="@/assets/image/HULU.jpg" alt="HULU">
-        <img src="@/assets/image/DISNEP.jpg" alt="DISNEP">
-        <img src="@/assets/image/BBC_PLAYER.jpg" alt="BBC PLAYER">
-        <img src="@/assets/image/HBOHD.jpg" alt="HBO HD">
-        <img src="@/assets/image/COMEDY_CENTRAL.jpg" alt="COMEDY CENTRAL">
+        <div class="devices_wrapper">
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/DAZN.jpg" alt="DAZN">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/SHOWTIME.jpg" alt="SHOWTIME">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/NETFLIX.jpg" alt="NETFLIX">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/PRIME.jpg" alt="PRIME VIDEO">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/HULU.jpg" alt="HULU">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/DISNEP.jpg" alt="DISNEP">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/BBC_PLAYER.jpg" alt="BBC PLAYER">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/HBOHD.jpg" alt="HBO HD">
+          </a>
+          <a :href="mainLink" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/image/COMEDY_CENTRAL.jpg" alt="COMEDY CENTRAL">
+          </a>
+        </div>
+        
       </div>
     </div>
 
@@ -60,25 +81,27 @@
       <div class="product_list_container">
         <div class="product_item" v-for="(product,index) in productData" :key="index">
           <div :class="{'special_corner_box':true,'first': index == 0, 'second': index == 1, 'third': index == 2}" v-if="index < 3 ">
-            <span class="most" v-if="index == 0">Best Value for Money</span>
-            <span class="most" v-if="index == 1">Most Secure & Reliable</span>
-            <span class="most" v-if="index == 2">Most Popular</span>
+            <span class="most" v-if="index == 1">Best Value for Money</span>
+            <span class="most" v-if="index == 0">Most Popular</span>
+            <span class="most" v-if="index == 2">Most Secure & Reliable</span>
           </div>
           <div class="corner_box" v-else>
             
             <span>#{{index + 1}}</span>
           </div>
-       
+          <p class="slogan" v-if="product.slogan">{{product.slogan}}</p>
+          <!-- <div class="first-name" v-if="index == 0">UltraVPN</div> -->
 
-          <div class="price_box" v-if="index == 0">
+          <!-- <div class="price_box" v-if="index == 0">
             <span class="text">From</span>
             <span class="price-text">${{product.price}}</span>
             <span class="text">/month</span>
-          </div>
+          </div> -->
           <!-- <a :href="product.link" class="product_link_box" target="_blank" rel="noopener noreferrer"> -->
-            <div class="product_item_content" @click="jump(product.link)">
+            <div class="product_item_content">
               <img :src="product.logoSrc" :alt="product.name" class="product_logo">
               <div class="product_item_center">
+                
                 <ul class="product_desc_list">
                   <li v-for="(text,id) in product.meritList" :key="id">
                     <span class="icon_pic"></span>
@@ -96,7 +119,7 @@
                   <dd v-if="product.system.ios">
                     <img src="@/assets/image/iOS.svg" alt="iOS" >
                   </dd>
-                  <dd v-if="product.system.mac">
+                  <dd v-if="product.system.router">
                     <img src="@/assets/image/router.svg" alt="router">
                   </dd>
                   <dd v-if="product.system.linux">
@@ -133,7 +156,12 @@
                 </div>
               </div>
 
-              <a :href="product.link" class="visit_btn" target="_blank" rel="noopener noreferrer">Visit {{product.name}}</a>
+              <div class="btn-box">
+                <a :href="product.link" class="visit_btn" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute">Visit {{product.name}}</a>
+                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="index == 0"><span class="volume-icon"></span><span>68% off +3 months free</span></a>
+                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="index == 1"><span class="volume-icon"></span><span>Only $2.99 today</span></a>
+              </div>
+              
             </div>
           <!-- </a> -->
           
@@ -243,8 +271,8 @@
             </div>
             <img :src="item.picture" :alt="item.name" class="picture">
             <p class="desc">{{item.feature}}</p>
-            <a :href="item.link" target="_blank" @click="execute" class="btn" rel="noopener noreferrer">Visit {{item.name}}</a>
-            <nuxt-link :to="'/reviews?id='+item.keyname" class="review">Read Our Reviews</nuxt-link>
+            <a :href="item.link" target="_blank" @click.self="execute" class="btn" rel="noopener noreferrer">Visit {{item.name}}</a>
+            <nuxt-link :to="'/reviews?id='+item.keyname" v-if="item.keyname" class="review">Read Our Reviews</nuxt-link>
           </div>
         </div>
     </div>
@@ -295,6 +323,7 @@ export default {
 
   data() {
     return {
+      mainLink: 'https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b',
       isShowUseless: true,
       isShowUsefull: true,
       currentIndex: 0,
@@ -303,6 +332,36 @@ export default {
   },
   
   methods: {
+    changeLink(baseUrl,button_id) {
+      let aff_sub = this.getQueryVariable('utm_term');
+      let aff_sub2 = this.getQueryVariable('TargetId');
+      let aff_sub3 = this.getQueryVariable('loc');
+      let msclkid = this.getQueryVariable('msclkid');
+      let aff_sub4 = Math.floor(new Date().getTime() / 1000);
+      let aff_sub5 = button_id + '_homepage';
+
+      if (button_id == 'ultravpn' || button_id == 'nordvpn') {
+        return `${baseUrl}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}`
+      }
+      
+      return baseUrl;
+      
+    },
+    getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var paramArray = query.split("&");
+        for (var i=0;i<paramArray.length;i++) {
+                var pair = paramArray[i].split("=");
+                if(pair[0] == variable)
+                {
+                      return pair[1];
+                }
+        }
+        return(false);
+      
+      
+    },
+
     jump(link) {
       window.execute();
       window.open(link,'_target');
@@ -475,8 +534,17 @@ export default {
       let month = new Date().getMonth();
       let string = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sept','Oct','Nov','Dec'];
       let day = new Date().getDate();
+
+      
       if (day < 3) {
+
+        if (month == 0) {
+          month = 11;
+          year = year - 1;
+        } else {
           month = month - 1
+        }
+          
       }
       return `${string[month]} 03 ${year}`;
     },
@@ -488,7 +556,29 @@ export default {
   mounted() {
 
     this.cut(0);
-    this.drawCanvas();
+    // this.drawCanvas();
+    let that = this;
+
+    $('.product_item_content .btn-box a').each(function () {
+      let href = that.changeLink($(this).attr('href'),$(this).data('key'));
+
+      $(this).attr('href',href)
+
+    })
+
+    $('.product_item_content').on('click',function (e) {
+      e.preventDefault();
+      let href = $(this).find('.btn-box a').attr('href');
+
+      if (href) {
+        let newTab = window.open();
+        newTab.location.href = href
+      }
+      
+      // window.open(href);
+    })
+
+
   }
 
 }

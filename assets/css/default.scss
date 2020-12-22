@@ -228,22 +228,25 @@ html,body {
         }
         .btn {
           position: absolute;
-          left: 50%;
-          transform: translateX(-50%);
-          bottom: 20px;
-          font-size: 20px;
-          font-weight: bold;
+          right: 33px;
+          bottom: 40px;
+          
           width: 265px;
           height: 50px;
+          font-size: 22px;
+          font-weight: bold;
           line-height: 50px;
+          outline: none;
+          border: none;
           text-align: center;
-          color: #2c2d43;
-          background-color: #ffd52e;
+          color: #ffffff;
+          background-color: rgb(245,79,100);
           border-radius: 30px;
           text-decoration: none;
           transition: all linear 0.1s;
+          cursor: pointer;
           &:hover {
-            background-color: #d1ae23;
+            background-color: #da4255;
           }
         }
       }

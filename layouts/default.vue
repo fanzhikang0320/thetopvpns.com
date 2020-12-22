@@ -32,13 +32,12 @@
       <div class="message-box">
           <div class="message-container">
             <span class="close-message"></span>
-            <a href="https://track.ultravpn.com/5e6ba25e9e8db/click" @click="execute" target="_blank" rel="noopener noreferrer">
-              <img src="@/assets/image/ULTRA-message.jpg" class="message-img" alt="ULTRAVPN"/>
+            <a href="/jump?url=https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b" @click="execute" target="_blank" rel="noopener noreferrer">
+              <img src="@/assets/image/nord-christmas.png" class="message-img" alt="NordVPN"/>
+              <button class="btn">
+                <span class="text">Grab the Deal</span>
+              </button>
             </a>
-            <!-- <a href="https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg" target="_blank" class="btn" rel="noopener noreferrer">
-              <span class="text">Claim Discount Now</span>
-              <span class="icon"></span>
-            </a> -->
           </div>
       </div>
     </main>
@@ -89,7 +88,7 @@
 
             
           </div>
-          <p class="copyright">Copyright © 2009-2020 Suzhou Yiliang Technology Co., Ltd. All Rights Reserved.</p>
+          <p class="copyright">Copyright © 2009-2020 Westwin Technologies Co. Ltd. All Rights Reserved.</p>
             <p class="desc">By using our content, products & services you agree to our Terms of Service and Privacy Policy</p>
         </div>
       </div>
@@ -214,11 +213,7 @@
       this.getNav();
     },
     mounted() {
-    //  $('header .reviews_nav_list a').on('click',function () {
-
-
-    //     $('header .website_nav').slideToggle('fast');
-    //   })
+ 
      $('header .menu-icon').on('click',function () {
        $(this).toggleClass('click-menu-icon');
 
@@ -249,12 +244,12 @@
           that.count ++;
         })
       })
-    },15000)
+    },20000)
     let that = this;
     if (window.screen.width <= 750) {
       this.timer2 = setTimeout(() => {
         this.openMessage();
-      },15000)
+      },20000)
     }
     $('.message-box .close-message').on('click',function () {
       that.closeMessage();
