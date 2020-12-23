@@ -1,47 +1,6 @@
 {
     "data":[
-        {
-            "name": "NordVPN",
-            "key": "nordvpn",
-            "keyname": "Nord-VPN-Review",
-            "link": "/jump?url=https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b",
-            "logoSrc": "/data/img/NordVPN.png",
-            "picture":"/data/img/NordVPN-p.png",
-            "horizontalLogoSrc":"/data/img/NORD-h.png",
-            "reviews": 3852,
-            "price": "3.71",
-            "rate": {
-                "score": "9.8",
-                "max": 10
-            },
-            "saveNum": 77,
-            "slogan": "NordVPN: Top Notch All-Around VPN, Extremely Secure",
-            "feature": "Enjoy blazing fast speeds and unrestricted access worldwide. Try NordVPN for 30 days.",
-            "meritList": [
-                {
-                    "text": "Fast VPN service with advanced privacy features "
-                },
-                {
-                    "text": "5,400+ servers in 59 countries"
-                },
-                {
-                    "text": "Uninterrupted streaming and P2P sharing"
-                },
-                {
-                    "text": "Military great security level"
-                },
-                {
-                    "text": "High-speed, unlimited bandwidth"
-                },
-                {
-                    "text": "Up to 6 devices simultaneously"
-                },
-                {
-                    "text": "24/7 customer support"
-                }
-            ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
-        },
+        
         {
             "name": "UltraVPN",
             "key": "ultravpn",
@@ -50,13 +9,14 @@
             "logoSrc": "/data/img/ULTRAVPN.png",
             "picture":"/data/img/ULTRAVPN-p.png",
             "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
-            "reviews": 3664,
+            "reviews": 3864,
             "price": 2.99,
             "rate": {
-                "score": "9.5",
+                "score": "9.8",
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "Only $2.99 today",
             "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
             "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
             "meritList": [
@@ -82,6 +42,46 @@
             "system": ["android","ios","mac","windows"]
         },
         {
+            "name": "NordVPN",
+            "key": "nordvpn",
+            "keyname": "Nord-VPN-Review",
+            "link": "/jump?url=https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b",
+            "logoSrc": "/data/img/NordVPN.png",
+            "picture":"/data/img/NordVPN-p.png",
+            "horizontalLogoSrc":"/data/img/NORD-h.png",
+            "reviews": 3652,
+            "price": "3.71",
+            "rate": {
+                "score": "9.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "68% off +3 months free",
+            "slogan": "NordVPN: Top Notch All-Around VPN, Extremely Secure",
+            "feature": "Enjoy blazing fast speeds and unrestricted access worldwide. Try NordVPN for 30 days.",
+            "meritList": [
+                {
+                    "text": "Fast VPN service with advanced privacy features "
+                },
+                {
+                    "text": "5,400+ servers in 59 countries"
+                },
+                {
+                    "text": "Uninterrupted streaming and P2P sharing"
+                },
+                {
+                    "text": "Military great security level"
+                },
+                {
+                    "text": "High-speed, unlimited bandwidth"
+                },
+                {
+                    "text": "Up to 6 devices simultaneously"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
             "name": "PrivacyWeb",
             "key": "privacy",
             "keyname": "",
@@ -96,6 +96,7 @@
                 "max": 10
             },
             "saveNum": 79,
+            "speaker": "",
             "slogan": " PrivacyWeb: Access Restricted Content From Anywhere",
             "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
@@ -129,6 +130,7 @@
                 "max": 10
             },
             "saveNum": 79,
+            "speaker": "",
             "slogan": "CyberGhost: Top Notch All-Around VPN, Extremely Secure",
             "feature": "",
             "meritList": [
@@ -162,6 +164,7 @@
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "PIA: World's Leading VPN Service",
             "feature": "A budget VPN with impressive streaming capabilities",
             "meritList": [
@@ -197,6 +200,7 @@
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "Surfshark: Provides Trusted Protection For Unlimited Devices",
             "feature": "Unlimited & anonymous P2P/torrenting",
             "meritList": [
@@ -230,6 +234,7 @@
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "PrivateVPN: Budget VPN With Impressive Streaming Capabilities",
             "feature": "",
             "meritList": [
@@ -263,6 +268,7 @@
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "PureVPN: Steady VPN Connection With Stable Servers",
             "feature": "",
             "meritList": [
@@ -296,6 +302,7 @@
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "Ivacy VPN: Always Keep You Anonymous",
             "feature": "",
             "meritList": [
@@ -329,6 +336,7 @@
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "IPVanish: Access Blocked Content From Anywhere",
             "feature": "",
             "meritList": [

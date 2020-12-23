@@ -158,8 +158,7 @@
 
               <div class="btn-box">
                 <a :href="product.link" class="visit_btn" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute">Visit {{product.name}}</a>
-                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="index == 0"><span class="volume-icon"></span><span>68% off +3 months free</span></a>
-                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="index == 1"><span class="volume-icon"></span><span>Only $2.99 today</span></a>
+                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
               </div>
               
             </div>

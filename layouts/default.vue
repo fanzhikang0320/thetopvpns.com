@@ -33,7 +33,7 @@
           <div class="message-container">
             <span class="close-message"></span>
             <a href="/jump?url=https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b" @click="execute" target="_blank" rel="noopener noreferrer">
-              <img src="@/assets/image/nord-christmas.png" class="message-img" alt="NordVPN"/>
+              <img src="@/assets/image/nord-christmas.png" class="message-img" alt="UltraVPN"/>
               <button class="btn">
                 <span class="text">Grab the Deal</span>
               </button>
