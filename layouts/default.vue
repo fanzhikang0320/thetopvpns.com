@@ -28,18 +28,8 @@
     </header>
     <main>
       <Nuxt />
-
-      <div class="message-box">
-          <div class="message-container">
-            <span class="close-message"></span>
-            <a href="/jump?url=https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b" @click="execute" target="_blank" rel="noopener noreferrer">
-              <img src="@/assets/image/nord-christmas.png" class="message-img" alt="UltraVPN"/>
-              <button class="btn">
-                <span class="text">Grab the Deal</span>
-              </button>
-            </a>
-          </div>
-      </div>
+      <Message :url="mainLink" />
+      
     </main>
     
 
@@ -88,7 +78,7 @@
 
             
           </div>
-          <p class="copyright">Copyright © 2009-2020 Westwin Technologies Co. Ltd. All Rights Reserved.</p>
+          <p class="copyright">Copyright © 2009-2021 Westwin Technologies Co. Ltd. All Rights Reserved.</p>
             <p class="desc">By using our content, products & services you agree to our Terms of Service and Privacy Policy</p>
         </div>
       </div>
@@ -100,6 +90,7 @@
   export default {
     data() {
       return {
+        mainLink: '',
         navList: [],
         email: '',
         content: '',
@@ -110,33 +101,33 @@
       }
     },
     methods: {
-      execute() {
-        window.execute();
-      },
-      openMessage() {
-        $('.message-box').css({
-          display: 'block'
-        }).animate({
-          opacity: 1
-        },300,function () {
-          $('.message-box .message-container').animate({
-            top: '50%',
-            opacity: 1
-          })
+      
+      async getLink() {
+        let aff_sub = this.$route.query['utm_term'],
+              aff_sub2 = this.$route.query['TargetId'],
+              aff_sub3 = this.$route.query['loc'],
+              msclkid = this.$route.query['msclkid'],
+              gclid = this.$route.query['gclid'],
+              aff_sub4 = Math.floor(new Date().getTime() / 1000),
+              // aff_sub5 = key + '_homepage',
+              basePath = '/jump?url=';
+
+        const res = await this.$axios.$get('/data/product.json');
+        
+        res.data.forEach(element => {
+          if (element.key == 'ultravpn') {
+
+            if (typeof gclid != 'undefined') {
+              element.link = `${basePath}https://hotsale.featuredproduct.news/576399e9-4511-4ff2-9344-df0b19cd1124?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
+            } else if (typeof msclkid != 'undefined') {
+              element.link = `${basePath}${element.link}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
+            }
+
+            this.mainLink = element.link;
+          }
         })
 
-
-      },
-      closeMessage() {
-        $('.message-box .message-container').animate({
-          top: '-100%',
-          opacity: 0
-        },400,function () {
-          $('.message-box').css({
-            display: 'none',
-            opacity: 0
-          })
-        })
+        
       },
       async getNav() {
         let res = await this.$axios.get('/data/product.json');
@@ -152,8 +143,8 @@
         this.content = '';
         this.username = '';
       },
-       //阻止表单 默认事件
-        onSubmit(){return false;},
+      //阻止表单 默认事件
+      onSubmit(){return false;},
       submitForm() {
         const reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
         if (!this.username || this.username.trim().length == 0) {
@@ -203,14 +194,16 @@
             })
         }
       },
-    hideList() {
-      $('.website_nav li .text-title').toggleClass('clickme');
-        $('header .reviews_nav_list').slideToggle('fast');
-    }
+      hideList() {
+        $('.website_nav li .text-title').toggleClass('clickme');
+          $('header .reviews_nav_list').slideToggle('fast');
+      }
       
     },
     created() {
+      
       this.getNav();
+      this.getLink();
     },
     mounted() {
  
@@ -231,33 +224,9 @@
         
       })
     
-    this.timer = setTimeout(() => {
-      let that = this;
-      $('body').on('mouseenter',function () {
-
-        $('body').one('mouseleave',function () {
-          
-          if (that.count == 0) {
-            that.openMessage();
-          }
-          
-          that.count ++;
-        })
-      })
-    },20000)
-    let that = this;
-    if (window.screen.width <= 750) {
-      this.timer2 = setTimeout(() => {
-        this.openMessage();
-      },20000)
+    
     }
-    $('.message-box .close-message').on('click',function () {
-      that.closeMessage();
-    })
-    },
-    destroyed() {
-      clearTimeout(this.timer)
-    }
+    
   }
 </script>
 <style lang="scss">

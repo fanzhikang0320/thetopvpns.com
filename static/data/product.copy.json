@@ -115,6 +115,7 @@
             ],
             "system": ["android","ios","mac","windows"]
         },
+        
         {
             "name": "Norton",
             "key": "norton",
@@ -153,17 +154,18 @@
             "name": "PIA",
             "key": "pia",
             "keyname": "",
-            "link": "https://privateinternetaccess.com/offer/gen_2jq97fevw",
+            "link": "/jump?url=https://privateinternetaccess.com/offer/gen_2jq97fevw",
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3221,
+            "reviews": 3321,
             "price": 2.85,
             "rate": {
                 "score": "8.5",
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "PIA: World's Leading VPN Service",
             "feature": "A budget VPN with impressive streaming capabilities",
             "meritList": [
@@ -323,17 +325,18 @@
             "name": "IPVanish",
             "key": "ipvanish",
             "keyname": "",
-            "link": "https://www.ipvanish.com/?a_bid=48f95966&a_aid=5ef84324d20fb",
+            "link": "/jump?url=https://www.ipvanish.com/?a_bid=48f95966&a_aid=5ef84324d20fb",
             "logoSrc": "/data/img/IPVANISH.png",
             "picture":"/data/img",
             "horizontalLogoSrc":"",
             "reviews": 1603,
             "price": 0,
             "rate": {
-                "score": "7.3",
+                "score": "7.2",
                 "max": 10
             },
             "saveNum": 77,
+            "speaker": "",
             "slogan": "IPVanish: Access Blocked Content From Anywhere",
             "feature": "",
             "meritList": [

@@ -365,13 +365,14 @@
                     font-weight: bold;
 
                     &.first {
-                        background-color: #ff865d;
+                        background-color: #4c98f5;
                     }
                     &.second {
-                        background-color: #58b168;
+                        background-color: #ff865d;
+                        
                     }
                     &.third {
-                        background-color: #4c98f5;
+                        background-color: #58b168;
                     }
 
                     &::after {

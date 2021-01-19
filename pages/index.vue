@@ -3,7 +3,7 @@
     <div class="page_top_container">
       <div class="banner_container" id="index_banner">
         <div class="banner_content">
-          <h1 class="page_title">Top {{productData.length}} VPN of 2020</h1>
+          <h1 class="page_title">Top {{productData.length}} VPN of 2021</h1>
           <p>Let Us Help You Find The Perfect VPN Provider</p>
           <p>Before you opt to buy VPN services, you'll want to make sure that the ones you're considering offer as many of the above benefits and features as possible. </p>
           <p>Top VPN compared the best VPN providers for you.</p>
@@ -82,8 +82,8 @@
         <div class="product_item" v-for="(product,index) in productData" :key="index">
           <div :class="{'special_corner_box':true,'first': index == 0, 'second': index == 1, 'third': index == 2}" v-if="index < 3 ">
             <span class="most" v-if="index == 1">Best Value for Money</span>
-            <span class="most" v-if="index == 0">Most Popular</span>
-            <span class="most" v-if="index == 2">Most Secure & Reliable</span>
+            <span class="most" v-if="index == 2">Most Popular</span>
+            <span class="most" v-if="index == 0">Most Secure & Reliable</span>
           </div>
           <div class="corner_box" v-else>
             
@@ -158,7 +158,7 @@
 
               <div class="btn-box">
                 <a :href="product.link" class="visit_btn" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute">Visit {{product.name}}</a>
-                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
+                <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker && product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
               </div>
               
             </div>
@@ -244,7 +244,7 @@
     </div>
 
     <div class="pickers_container">
-        <h2 class="pickers_title">Top Picks for 2020</h2>
+        <h2 class="pickers_title">Top Picks for 2021</h2>
         <div class="pickers_product_wrapper">
          
           <div :class="{'picker_product_item':true, 'picker_product_main_item': index == 0}" v-for="(item,index) in pickterData" :key="index">
@@ -282,11 +282,45 @@
 <script>
 export default {
  
-  async asyncData({app}) {
-    
+  async asyncData({ app, route }) {
+      const changeLink = (url,key) => {
+          let aff_sub = route.query['utm_term'],
+              aff_sub2 = route.query['TargetId'],
+              aff_sub3 = route.query['loc'],
+              msclkid = route.query['msclkid'],
+              gclid = route.query['gclid'],
+              aff_sub4 = Math.floor(new Date().getTime() / 1000),
+              aff_sub5 = key + '_homepage',
+              basePath = '/jump?url=';
+
+          // 判断是Google的流量还是bing的流量
+
+          if (typeof gclid != 'undefined') {
+            if (key == 'ultravpn') {
+              return `${basePath}https://hotsale.featuredproduct.news/576399e9-4511-4ff2-9344-df0b19cd1124?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
+            } else if (key == 'nordvpn') {
+              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
+            }
+            
+
+          } else if (typeof msclkid != 'undefined') {
+
+            if (key == 'ultravpn' || key == 'nordvpn') {
+
+              return `${basePath}${url}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
+
+            }
+
+          }
+          return `${basePath}${url}`;
+          
+        }
       const res = await app.$axios.get('/data/product.json');
 
       res.data.data.forEach(element => {
+
+          element.link = changeLink(element.link,element.key);
+
           let basic = {
               android: false,
               ios: false,
@@ -299,7 +333,7 @@ export default {
               chrome: false,
               firefox: false
           }
-
+          
           for (let i = 0; i < element.system.length; i++) {
               basic[element.system[i]] = true;
           }
@@ -315,14 +349,14 @@ export default {
       return {
         productData: res.data.data,
         pickterData: res.data.data.slice(0,3),
-        questionData: result.data.data
+        questionData: result.data.data,
+        mainLink: res.data.data[0].link
       }
 
   },
 
   data() {
     return {
-      mainLink: 'https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b',
       isShowUseless: true,
       isShowUsefull: true,
       currentIndex: 0,
@@ -331,41 +365,8 @@ export default {
   },
   
   methods: {
-    changeLink(baseUrl,button_id) {
-      let aff_sub = this.getQueryVariable('utm_term');
-      let aff_sub2 = this.getQueryVariable('TargetId');
-      let aff_sub3 = this.getQueryVariable('loc');
-      let msclkid = this.getQueryVariable('msclkid');
-      let aff_sub4 = Math.floor(new Date().getTime() / 1000);
-      let aff_sub5 = button_id + '_homepage';
-
-      if (button_id == 'ultravpn' || button_id == 'nordvpn') {
-        return `${baseUrl}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}`
-      }
-      
-      return baseUrl;
-      
-    },
-    getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var paramArray = query.split("&");
-        for (var i=0;i<paramArray.length;i++) {
-                var pair = paramArray[i].split("=");
-                if(pair[0] == variable)
-                {
-                      return pair[1];
-                }
-        }
-        return(false);
-      
-      
-    },
-
-    jump(link) {
-      window.execute();
-      window.open(link,'_target');
-
-    },
+    
+    // 记录按钮点击数量
     execute() {
       window.execute();
     },
@@ -558,13 +559,6 @@ export default {
     // this.drawCanvas();
     let that = this;
 
-    $('.product_item_content .btn-box a').each(function () {
-      let href = that.changeLink($(this).attr('href'),$(this).data('key'));
-
-      $(this).attr('href',href)
-
-    })
-
     $('.product_item_content').on('click',function (e) {
       e.preventDefault();
       let href = $(this).find('.btn-box a').attr('href');
@@ -574,7 +568,6 @@ export default {
         newTab.location.href = href
       }
       
-      // window.open(href);
     })
 
 

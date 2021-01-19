@@ -186,92 +186,11 @@ html,body {
   }
   main {
     padding-top: 64px;
-  
-    .message-box {
-      display: none;
-      opacity: 0;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 99;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,.8);
-
-      .message-container {
-        // display: none;
-        opacity: 0;
-        position: absolute;
-        left: 50%;
-        top: -100%;
-        transform: translate(-50%,-50%);
-
-        .close-message {
-          
-          position: absolute;
-          right: -40px;
-          top: -40px;
-          width: 30px;
-          height: 30px;
-          cursor: pointer;
-          background-image: url('../assets/image/cha.svg');
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-
-        }
-        .message-img {
-          position: relative;
-          width: 650px;
-          left: 0;
-          top: 0;
-        }
-        .btn {
-          position: absolute;
-          right: 33px;
-          bottom: 40px;
-          
-          width: 265px;
-          height: 50px;
-          font-size: 22px;
-          font-weight: bold;
-          line-height: 50px;
-          outline: none;
-          border: none;
-          text-align: center;
-          color: #ffffff;
-          background-color: rgb(245,79,100);
-          border-radius: 30px;
-          text-decoration: none;
-          transition: all linear 0.1s;
-          cursor: pointer;
-          &:hover {
-            background-color: #da4255;
-          }
-        }
-      }
-    }
-
+    
     @media screen and (max-width:750px){
       padding-top: 44px;
 
-      .message-box {
-        .message-container {
-          .close-message {
-            right: 0;
-          }
-          .message-img {
-            width: 370px;
-          }
-          
-          .btn {
-            width: 206px;
-            height: 30px;
-            line-height: 30px;
-            font-size: 16px;
-          }
-        }
-      }
+      
     }
   }
   
