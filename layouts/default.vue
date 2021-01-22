@@ -113,7 +113,7 @@
               basePath = '/jump?url=';
 
         const res = await this.$axios.$get('/data/product.json');
-        
+
         res.data.forEach(element => {
           if (element.key == 'ultravpn') {
 
@@ -123,7 +123,7 @@
               element.link = `${basePath}${element.link}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
             }
 
-            this.mainLink = element.link;
+            this.mainLink = `${basePath}${element.link}`;
           }
         })
 

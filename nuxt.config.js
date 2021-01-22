@@ -31,7 +31,8 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    {src: '@/plugins/element-ui',ssr: true}
+    { src: '@/plugins/element-ui', ssr: false },
+    { src: '@/plugins/vue-lazyload.js', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -55,7 +56,7 @@ export default {
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    vendor: ['element-ui'],
+    vendor: ['element-ui','axios', 'vue-lazyload'],
     postcss: {
       plugins: {
         'autoprefixer': true,

@@ -81,9 +81,9 @@
       <div class="product_list_container">
         <div class="product_item" v-for="(product,index) in productData" :key="index">
           <div :class="{'special_corner_box':true,'first': index == 0, 'second': index == 1, 'third': index == 2}" v-if="index < 3 ">
-            <span class="most" v-if="index == 1">Best Value for Money</span>
-            <span class="most" v-if="index == 2">Most Popular</span>
-            <span class="most" v-if="index == 0">Most Secure & Reliable</span>
+            <span class="most" v-if="index == 2">Best Value for Money</span>
+            <span class="most" v-if="index == 0">Most Popular</span>
+            <span class="most" v-if="index == 1">Most Secure & Reliable</span>
           </div>
           <div class="corner_box" v-else>
             
@@ -99,7 +99,7 @@
           </div> -->
           <!-- <a :href="product.link" class="product_link_box" target="_blank" rel="noopener noreferrer"> -->
             <div class="product_item_content">
-              <img :src="product.logoSrc" :alt="product.name" class="product_logo">
+              <img v-lazy="product.logoSrc" :alt="product.name" class="product_logo">
               <div class="product_item_center">
                 
                 <ul class="product_desc_list">
@@ -254,7 +254,7 @@
             </div>
             
             <div class="picker_item_top">
-                <img :src="item.horizontalLogoSrc" :alt="item.name" class="logo">
+                <img v-lazy="item.horizontalLogoSrc" :alt="item.name" class="logo">
                 <div class="rate_wrapper">
                   <div class="rate_box">
                     <span class="rate">{{item.rate.score}}</span>
@@ -268,7 +268,7 @@
                   </div>
                 </div>
             </div>
-            <img :src="item.picture" :alt="item.name" class="picture">
+            <img v-lazy="item.picture" :alt="item.name" class="picture">
             <p class="desc">{{item.feature}}</p>
             <a :href="item.link" target="_blank" @click.self="execute" class="btn" rel="noopener noreferrer">Visit {{item.name}}</a>
             <nuxt-link :to="'/reviews?id='+item.keyname" v-if="item.keyname" class="review">Read Our Reviews</nuxt-link>

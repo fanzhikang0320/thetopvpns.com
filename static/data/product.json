@@ -15,7 +15,7 @@
                 "max": 10
             },
             "saveNum": 77,
-            "speaker": "68% off",
+            "speaker": "68% off today",
             "slogan": "NordVPN: Top Notch All-Around VPN, Extremely Secure",
             "feature": "Enjoy blazing fast speeds and unrestricted access worldwide. Try NordVPN for 30 days.",
             "meritList": [
@@ -80,7 +80,45 @@
             ],
             "system": ["android","ios","mac","windows"]
         },
-        
+        {
+            "name": "Surfshark",
+            "key": "surfshark",
+            "keyname": "Surfshark-Review",
+            "link": "https://get.surfshark.net/aff_c?offer_id=15&aff_id=3436",
+            "logoSrc": "/data/img/Surfshark.png",
+            "picture":"/data/img/Surfshark-p.png",
+            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
+            "reviews": 3586,
+            "price": 1.99,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Surfshark: Provides Trusted Protection For Unlimited Devices",
+            "feature": "Unlimited & anonymous P2P/torrenting",
+            "meritList": [
+                {
+                    "text": "Unlimited devices connections"
+                },
+                {
+                    "text": "Cheapest price on 2-year plan"
+                },
+                
+                {
+                    "text": "Unlimited & anonymous P2P/torrenting"
+                },
+                {
+                    "text": "No user logs & no IP address leaks"
+                },
+                {
+                    "text": "User-friendly apps for all major platforms"
+                }
+                
+            ],
+            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
+        },
         {
             "name": "ExpressVPN",
             "key": "expressVPN",
@@ -89,10 +127,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3501,
+            "reviews": 3421,
             "price": 6.67,
             "rate": {
-                "score": "9.1",
+                "score": "8.8",
                 "max": 10
             },
             "speaker": "",
@@ -118,6 +156,7 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
+        
         {
             "name": "PIA",
             "key": "pia",
@@ -126,10 +165,10 @@
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3421,
+            "reviews": 3221,
             "price": 2.85,
             "rate": {
-                "score": "8.8",
+                "score": "8.5",
                 "max": 10
             },
             "saveNum": 77,
@@ -164,7 +203,7 @@
             "reviews": 3324,
             "price": 2.75,
             "rate": {
-                "score": "8.5",
+                "score": "8.3",
                 "max": 10
             },
             "saveNum": 79,
@@ -187,40 +226,7 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
-        {
-            "name": "Surfshark",
-            "key": "surfshark",
-            "keyname": "Surfshark-Review",
-            "link": "https://get.surfshark.net/aff_c?offer_id=6&aff_id=3436",
-            "logoSrc": "/data/img/Surfshark.png",
-            "picture":"/data/img/Surfshark-p.png",
-            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
-            "reviews": 3286,
-            "price": 1.99,
-            "rate": {
-                "score": "8.3",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "Surfshark: Provides Trusted Protection For Unlimited Devices",
-            "feature": "Unlimited & anonymous P2P/torrenting",
-            "meritList": [
-                {
-                    "text": "Unlimited devices connections"
-                },
-                {
-                    "text": "Unlimited & anonymous P2P/torrenting"
-                },
-                {
-                    "text": "No user logs & no IP address leaks"
-                },
-                {
-                    "text": "Save 83% on 24-months package now"
-                }
-            ],
-            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
-        },
+        
         {
             "name": "PrivacyWeb",
             "key": "privacy",
