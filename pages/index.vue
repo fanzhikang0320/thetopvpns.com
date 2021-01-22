@@ -81,9 +81,9 @@
       <div class="product_list_container">
         <div class="product_item" v-for="(product,index) in productData" :key="index">
           <div :class="{'special_corner_box':true,'first': index == 0, 'second': index == 1, 'third': index == 2}" v-if="index < 3 ">
-            <span class="most" v-if="index == 2">Best Value for Money</span>
+            <span class="most" v-if="index == 2">Best For Streaming</span>
             <span class="most" v-if="index == 0">Most Popular</span>
-            <span class="most" v-if="index == 1">Most Secure & Reliable</span>
+            <span class="most" v-if="index == 1">Best Value For Money</span>
           </div>
           <div class="corner_box" v-else>
             

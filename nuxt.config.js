@@ -13,6 +13,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  analyze: true,
   render: {
       resourceHints: false,
   },
@@ -56,7 +57,47 @@ export default {
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    vendor: ['element-ui','axios', 'vue-lazyload'],
+    optimization: {
+      splitChunks: {
+        chunks: 'all',
+        automaticNameDelimiter: '.',
+        maxAsyncRequests: 7,
+        maxSize: 200000,
+        cacheGroups: {
+          vuetify: {
+            test: /node_modules[\\/]vuetify/,
+            chunks: 'all',
+            priority: 20,
+            name: true
+          },
+          elementui: {
+            test: /node_modules[\\/]element-ui/,
+            chunks: 'all',
+            priority: 20,
+            name: true
+          },
+          vuelazyload: {
+            test: /node_modules[\\/]vue-lazyload/,
+            chunks: 'all',
+            priority: 20,
+            name: true
+          },
+          axios: {
+            test: /node_modules[\\/]axios/,
+            chunks: 'all',
+            priority: 20,
+            name: true
+          },
+          jquery: {
+            test: /node_modules[\\/]jquery/,
+            chunks: 'all',
+            priority: 20,
+            name: true
+          }
+
+        }
+      }
+    },
     postcss: {
       plugins: {
         'autoprefixer': true,
