@@ -40,46 +40,7 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
-        {
-            "name": "UltraVPN",
-            "key": "ultravpn",
-            "keyname": "",
-            "link": "https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b",
-            "logoSrc": "/data/img/ULTRAVPN.png",
-            "picture":"/data/img/ULTRAVPN-p.png",
-            "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
-            "reviews": 3664,
-            "price": 2.99,
-            "rate": {
-                "score": "9.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "Only $2.99 today",
-            "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
-            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
-            "meritList": [
-                {
-                    "text": "Cheapest price on 1-month package"
-                },
-                {
-                    "text": "1,000+ servers in over 100 countries"
-                },
-                {
-                    "text": "No activity logging and total browsing encryption"
-                },
-                {
-                    "text": "Up to 5 devices protected simultaneously"
-                },
-                {
-                    "text": "Malware and phishing protection"
-                },
-                {
-                    "text": "No activity logging and total browsing encryption"
-                }
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
+        
         {
             "name": "Surfshark",
             "key": "surfshark",
@@ -88,16 +49,16 @@
             "logoSrc": "/data/img/Surfshark.png",
             "picture":"/data/img/Surfshark-p.png",
             "horizontalLogoSrc":"/data/img/Surfshark-h.png",
-            "reviews": 3586,
-            "price": 1.99,
+            "reviews": 3686,
+            "price": 2.49,
             "rate": {
-                "score": "9.1",
+                "score": "9.5",
                 "max": 10
             },
             "saveNum": 77,
             "speaker": "",
             "slogan": "Surfshark: Provides Trusted Protection For Unlimited Devices",
-            "feature": "Unlimited & anonymous P2P/torrenting",
+            "feature": "Unlimited devices & anonymous P2P/torrenting",
             "meritList": [
                 {
                     "text": "Unlimited devices connections"
@@ -120,6 +81,43 @@
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
+            "name": "UltraVPN",
+            "key": "ultravpn",
+            "keyname": "",
+            "link": "https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b",
+            "logoSrc": "/data/img/ULTRAVPN.png",
+            "picture":"/data/img/ULTRAVPN-p.png",
+            "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
+            "reviews": 3564,
+            "price": 2.99,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
+            "meritList": [
+                {
+                    "text": "Cheapest price on 1-month package"
+                },
+                {
+                    "text": "No activity logging and total browsing encryption"
+                },
+                {
+                    "text": "Up to 5 devices protected simultaneously"
+                },
+                {
+                    "text": "Malware and phishing protection"
+                },
+                {
+                    "text": "No activity logging and total browsing encryption"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
             "name": "ExpressVPN",
             "key": "expressVPN",
             "keyname": "Express-VPN-Review",
@@ -139,7 +137,7 @@
             "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
                 {
-                    "text": "One of the most popular VPN service in the market"
+                    "text": "One of the fastest VPN service in the market"
                 },
                 {
                     "text": "Connect securely to 90+ countries with 3000+ servers"
@@ -165,7 +163,7 @@
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3221,
+            "reviews": 3321,
             "price": 2.85,
             "rate": {
                 "score": "8.5",
@@ -200,7 +198,7 @@
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
             "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3324,
+            "reviews": 3224,
             "price": 2.75,
             "rate": {
                 "score": "8.3",
@@ -226,42 +224,6 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
-        
-        {
-            "name": "PrivacyWeb",
-            "key": "privacy",
-            "keyname": "",
-            "link": "https://url.privacyweb.com/5fbccf45cfc41/click",
-            "logoSrc": "/data/img/privacyWeb.png",
-            "horizontalLogoSrc": "/data/img/privacyWeb-h.png",
-            "picture":"/data/img/privacyWeb-p.png",
-            "reviews": 3024,
-            "price": 2.75,
-            "rate": {
-                "score": "8.0",
-                "max": 10
-            },
-            "saveNum": 79,
-            "speaker": "",
-            "slogan": " PrivacyWeb: Access Restricted Content From Anywhere",
-            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
-            "meritList": [
-                {
-                    "text": "Bank-level encryption"
-                },
-                {
-                    "text": "Instant setup & easy to use"
-                },
-                {
-                    "text": "Servers in 55 locations worldwide"
-                },
-                {
-                    "text": "Strict no-log policy"
-                }
-                
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
         {
             "name": "PrivateVPN",
             "key": "privatevpn",
@@ -270,10 +232,10 @@
             "logoSrc": "/data/img/private.png",
             "picture":"/data/img",
             "horizontalLogoSrc":"",
-            "reviews": 2846,
+            "reviews": 3046,
             "price": 0,
             "rate": {
-                "score": "7.8",
+                "score": "8.0",
                 "max": 10
             },
             "saveNum": 77,
@@ -296,6 +258,42 @@
             ],
             "system": ["android","ios","mac","linux","windows"]
         },
+        {
+            "name": "Norton",
+            "key": "norton",
+            "keyname": "",
+            "link": "https://www.jdoqocy.com/click-100176895-13593334",
+            "logoSrc": "/data/img/Norton.png",
+            "horizontalLogoSrc": "/data/img/Norton-h.png",
+            "picture":"/data/img/Norton-p.png",
+            "reviews": 2824,
+            "price": 2.75,
+            "rate": {
+                "score": "7.8",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "meritList": [
+                {
+                    "text": "Offers security in browser and other mobile apps "
+                },
+                {
+                    "text": "1,500 servers spread across 29 countries"
+                },
+                {
+                    "text": "Flexible, competitive pricing"
+                },
+                {
+                    "text": "Built-in ad tracker blocking"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows","linux"]
+        },
+        
         {
             "name": "PureVPN",
             "key": "purevpn",
@@ -364,8 +362,6 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv"]
         }
-        
-
         
     ]
 }
