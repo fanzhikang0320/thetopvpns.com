@@ -80,43 +80,7 @@
             ],
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
-        {
-            "name": "UltraVPN",
-            "key": "ultravpn",
-            "keyname": "",
-            "link": "https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b",
-            "logoSrc": "/data/img/ULTRAVPN.png",
-            "picture":"/data/img/ULTRAVPN-p.png",
-            "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
-            "reviews": 3564,
-            "price": 2.99,
-            "rate": {
-                "score": "9.1",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
-            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
-            "meritList": [
-                {
-                    "text": "Cheapest price on 1-month package"
-                },
-                {
-                    "text": "No activity logging and total browsing encryption"
-                },
-                {
-                    "text": "Up to 5 devices protected simultaneously"
-                },
-                {
-                    "text": "Malware and phishing protection"
-                },
-                {
-                    "text": "No activity logging and total browsing encryption"
-                }
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
+        
         {
             "name": "ExpressVPN",
             "key": "expressVPN",
@@ -125,10 +89,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3421,
+            "reviews": 3521,
             "price": 6.67,
             "rate": {
-                "score": "8.8",
+                "score": "9.1",
                 "max": 10
             },
             "speaker": "",
@@ -154,7 +118,41 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
-        
+        {
+            "name": "Norton",
+            "key": "norton",
+            "keyname": "",
+            "link": "https://www.jdoqocy.com/click-100176895-13593334",
+            "logoSrc": "/data/img/Norton.png",
+            "horizontalLogoSrc": "/data/img/Norton-h.png",
+            "picture":"/data/img/Norton-p.png",
+            "reviews": 3424,
+            "price": 2.75,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "meritList": [
+                {
+                    "text": "Offers security in browser and other mobile apps "
+                },
+                {
+                    "text": "1,500 servers spread across 29 countries"
+                },
+                {
+                    "text": "Flexible, competitive pricing"
+                },
+                {
+                    "text": "Built-in ad tracker blocking"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows","linux"]
+        },
         {
             "name": "PIA",
             "key": "pia",
@@ -259,40 +257,41 @@
             "system": ["android","ios","mac","linux","windows"]
         },
         {
-            "name": "Norton",
-            "key": "norton",
+            "name": "UltraVPN",
+            "key": "ultravpn",
             "keyname": "",
-            "link": "https://www.jdoqocy.com/click-100176895-13593334",
-            "logoSrc": "/data/img/Norton.png",
-            "horizontalLogoSrc": "/data/img/Norton-h.png",
-            "picture":"/data/img/Norton-p.png",
-            "reviews": 2824,
-            "price": 2.75,
+            "link": "https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b",
+            "logoSrc": "/data/img/ULTRAVPN.png",
+            "picture":"/data/img/ULTRAVPN-p.png",
+            "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
+            "reviews": 2864,
+            "price": 2.99,
             "rate": {
                 "score": "7.8",
                 "max": 10
             },
-            "saveNum": 79,
+            "saveNum": 77,
             "speaker": "",
-            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
-            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
             "meritList": [
                 {
-                    "text": "Offers security in browser and other mobile apps "
+                    "text": "Cheapest price on 1-month package"
                 },
                 {
-                    "text": "1,500 servers spread across 29 countries"
+                    "text": "No activity logging and total browsing encryption"
                 },
                 {
-                    "text": "Flexible, competitive pricing"
+                    "text": "Up to 5 devices protected simultaneously"
                 },
                 {
-                    "text": "Built-in ad tracker blocking"
+                    "text": "Malware and phishing protection"
                 }
                 
             ],
-            "system": ["android","ios","mac","windows","linux"]
+            "system": ["android","ios","mac","windows"]
         },
+        
         
         {
             "name": "PureVPN",

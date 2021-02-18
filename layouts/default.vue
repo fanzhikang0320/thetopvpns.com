@@ -28,7 +28,7 @@
     </header>
     <main>
       <Nuxt />
-      <Message :url="mainLink" />
+      <!-- <Message :url="mainLink" /> -->
       
     </main>
     
