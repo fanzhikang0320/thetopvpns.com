@@ -81,7 +81,7 @@
       <div class="product_list_container">
         <div class="product_item" v-for="(product,index) in productData" :key="index">
           <div :class="{'special_corner_box':true,'first': index == 0, 'second': index == 1, 'third': index == 2}" v-if="index < 3 ">
-            <span class="most" v-if="index == 2">Best No Log VPN</span>
+            <span class="most" v-if="index == 2">Fastest VPN</span>
             <span class="most" v-if="index == 0">Most Popular</span>
             <span class="most" v-if="index == 1">Best Value For Money</span>
           </div>

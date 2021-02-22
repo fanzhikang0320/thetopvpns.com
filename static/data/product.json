@@ -45,7 +45,7 @@
             "name": "Surfshark",
             "key": "surfshark",
             "keyname": "Surfshark-Review",
-            "link": "https://get.surfshark.net/aff_c?offer_id=15&aff_id=3436",
+            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
             "logoSrc": "/data/img/Surfshark.png",
             "picture":"/data/img/Surfshark-p.png",
             "horizontalLogoSrc":"/data/img/Surfshark-h.png",
@@ -119,39 +119,38 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
-            "name": "Norton",
-            "key": "norton",
+            "name": "PrivateVPN",
+            "key": "privatevpn",
             "keyname": "",
-            "link": "https://www.jdoqocy.com/click-100176895-13593334",
-            "logoSrc": "/data/img/Norton.png",
-            "horizontalLogoSrc": "/data/img/Norton-h.png",
-            "picture":"/data/img/Norton-p.png",
-            "reviews": 3424,
-            "price": 2.75,
+            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44",
+            "logoSrc": "/data/img/private.png",
+            "picture":"/data/img",
+            "horizontalLogoSrc":"",
+            "reviews": 3446,
+            "price": 0,
             "rate": {
                 "score": "8.8",
                 "max": 10
             },
-            "saveNum": 79,
+            "saveNum": 77,
             "speaker": "",
-            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
-            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "slogan": "PrivateVPN: Budget VPN With Impressive Streaming Capabilities",
+            "feature": "",
             "meritList": [
                 {
-                    "text": "Offers security in browser and other mobile apps "
+                    "text": "Connect securely to 60+ countries"
                 },
                 {
-                    "text": "1,500 servers spread across 29 countries"
+                    "text": "Unlimited & private P2P/torrenting"
                 },
                 {
-                    "text": "Flexible, competitive pricing"
+                    "text": "Work with Netflix & more"
                 },
                 {
-                    "text": "Built-in ad tracker blocking"
+                    "text": "affordable price"
                 }
-                
             ],
-            "system": ["android","ios","mac","windows","linux"]
+            "system": ["android","ios","mac","linux","windows"]
         },
         {
             "name": "PIA",
@@ -223,39 +222,41 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
-            "name": "PrivateVPN",
-            "key": "privatevpn",
+            "name": "Norton",
+            "key": "norton",
             "keyname": "",
-            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44",
-            "logoSrc": "/data/img/private.png",
-            "picture":"/data/img",
-            "horizontalLogoSrc":"",
-            "reviews": 3046,
-            "price": 0,
+            "link": "https://www.jdoqocy.com/click-100176895-13593334",
+            "logoSrc": "/data/img/Norton.png",
+            "horizontalLogoSrc": "/data/img/Norton-h.png",
+            "picture":"/data/img/Norton-p.png",
+            "reviews": 3024,
+            "price": 2.75,
             "rate": {
                 "score": "8.0",
                 "max": 10
             },
-            "saveNum": 77,
+            "saveNum": 79,
             "speaker": "",
-            "slogan": "PrivateVPN: Budget VPN With Impressive Streaming Capabilities",
-            "feature": "",
+            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
                 {
-                    "text": "Connect securely to 60+ countries"
+                    "text": "Offers security in browser and other mobile apps "
                 },
                 {
-                    "text": "Unlimited & private P2P/torrenting"
+                    "text": "1,500 servers spread across 29 countries"
                 },
                 {
-                    "text": "Work with Netflix & more"
+                    "text": "Flexible, competitive pricing"
                 },
                 {
-                    "text": "affordable price"
+                    "text": "Built-in ad tracker blocking"
                 }
+                
             ],
-            "system": ["android","ios","mac","linux","windows"]
+            "system": ["android","ios","mac","windows","linux"]
         },
+        
         {
             "name": "UltraVPN",
             "key": "ultravpn",
