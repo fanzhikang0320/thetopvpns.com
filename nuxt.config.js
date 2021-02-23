@@ -19,10 +19,10 @@ export default {
   },
   server: {
     port: '3000', // 配置服务端口号
-    host: '127.0.0.1'
+    host: '192.168.50.171'
   },
   axios: {
-    baseURL: 'http://127.0.0.1:3000'
+    baseURL: 'http://192.168.50.171:3000'
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
@@ -33,7 +33,8 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '@/plugins/element-ui', ssr: false },
-    { src: '@/plugins/vue-lazyload.js', ssr: false }
+    { src: '@/plugins/vue-lazyload.js', ssr: false },
+    { src: '@/plugins/i18n' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -45,7 +46,8 @@ export default {
   loading: '~/components/loading.vue',
   //路由配置
   router: {
-    prefetchLinks: false
+    prefetchLinks: false,
+    middleware: 'i18n'
   },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

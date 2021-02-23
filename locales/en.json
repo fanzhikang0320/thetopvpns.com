@@ -1,0 +1,74 @@
+{
+    
+    "header": {
+        "home": "Top VPN",
+        "reviews": "VPN Reviews",
+        "about": "About Us",
+        "language": {
+            "title": "Language",
+            "fr": "French",
+            "es": "Spanish",
+            "en": "English",
+            "it": "Italian"
+        }
+    },
+    "banner": {
+        "title": "Top {length} VPN of 2021",
+        "p1": "Let Us Help You Find The Perfect VPN Provider",
+        "p2": "Before you opt to buy VPN services, you'll want to make sure that the ones you're considering offer as many of the above benefits and features as possible.",
+        "p3": "Top VPN compared the best VPN providers for you."
+    },
+    "product": {
+        "corner": {
+            "first": "Most Popular",
+            "second": "Best Value For Money",
+            "third": "Fastest VPN"
+        },
+        "updated": "Last updated",
+        "visit": "Visit",
+        "abailable": "Abailable on"
+    },
+    "disclosure": {
+        "title": "Advertising Disclosure",
+        "content": {
+            "p1": "TopVPN.com is reader-supported. We may earn commissions if you buy a VPN through links on our site.",
+            "p2": "We built this website around our core principles of openness, honesty and transparency. Your trust is of the utmost importance to us, which is why we’ll always be straight-up about how we review VPNs.",
+            "p3": "Every VPN goes through a standardized, rigorous, and in-depth test programme comprised of hours and hours of use at the hands of our experts. This means you can buy with confidence knowing that our reviews are fully up to date. To find out more, please take a look at How We Review VPNs.",
+            "p4": "When it comes to keeping our website running we are going to be entirely upfront with you on how we operate, how we make money, and how we can keep the site a free resource for our millions of visitors. Our aim is to put you, the reader, first and foremost at all times.",
+            "p5": "We will never accept money to review a product",
+            "p6": "We will never accept money to change a product review",
+            "p7": "We will never accept money to turn a blind eye to an issue or flaw",
+            "p8": "We will never accept money to bias our research or investigations"
+            
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "useless": "Useless",
+        "useful": "Useful",
+        "thanks": "Thanks"
+    },
+    "topPicks": {
+        "visit": "Visit",
+        "title": "Top Picks for 2021",
+        "read": "Read Our Reviews"
+    },
+    "footer": {
+        "quickLink": {
+            "title": "Quick link",
+            "about": "About Us",
+            "private": "Private Policy",
+            "terms": "Terms of Use",
+            "faq": "FAQs"
+        },
+        "form": {
+            "contact": "Contact Us",
+            "name": "Name",
+            "email": "Email",
+            "text": "Input your text here...",
+            "submit": "Submit"
+        },
+        "copyright": "Copyright © 2009-2021 Westwin Technologies Co. Ltd. All Rights Reserved.",
+        "desc": "By using our content, products & services you agree to our Terms of Service and Privacy Policy"
+    }
+}
