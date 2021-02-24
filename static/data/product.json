@@ -80,7 +80,78 @@
             ],
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
+        {
+            "name": "PIA",
+            "key": "pia",
+            "keyname": "",
+            "link": "https://privateinternetaccess.com/offer/gen_2jq97fevw",
+            "logoSrc": "/data/img/pravateinternetaccess.png",
+            "picture":"/data/img/PIA-p.png",
+            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
+            "reviews": 3521,
+            "price": 2.85,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PIA: World's Leading VPN Service",
+            "feature": "A budget VPN with impressive streaming capabilities",
+            "meritList": [
+                {
+                    "text": "One of the fastest VPN service in the market"
+                },
+                {
+                    "text": "3000+ servers in 48 countries"
+                },
+                {
+                    "text": "Uncapped bandwidth, support for P2P"
+                },
+                {
+                    "text": "Up to 10 devices simultaneous connections"
+                },
+                {
+                    "text": "Block ads, trackers and malware"
+                }
+                
+            ],
+            "system": ["android","ios","mac","router","linux","windows"]
+        },
         
+        {
+            "name": "CyberGhost",
+            "keyname": "CyberGhost-Review",
+            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
+            "logoSrc": "/data/img/CyberGhost.png",
+            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
+            "picture":"/data/img/CyberGhost-p.png",
+            "reviews": 3424,
+            "price": 2.75,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "CyberGhost: Fast Growing VPN Provider",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Connect securely to 90+ countries"
+                },
+                {
+                    "text": "Unlocks Netflix, BBC iPlayer, Disney+ & more"
+                },
+                {
+                    "text": "No user logs & no IP address leaks"
+                },
+                {
+                    "text": "24/7 live chat support"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
         {
             "name": "ExpressVPN",
             "key": "expressVPN",
@@ -89,10 +160,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3521,
+            "reviews": 3321,
             "price": 6.67,
             "rate": {
-                "score": "9.1",
+                "score": "8.5",
                 "max": 10
             },
             "speaker": "",
@@ -100,9 +171,7 @@
             "slogan": "ExpressVPN: Most Advanced VPN Technology for Ultra-fast Streaming",
             "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
-                {
-                    "text": "One of the fastest VPN service in the market"
-                },
+                
                 {
                     "text": "Connect securely to 90+ countries with 3000+ servers"
                 },
@@ -126,10 +195,10 @@
             "logoSrc": "/data/img/private.png",
             "picture":"/data/img",
             "horizontalLogoSrc":"",
-            "reviews": 3446,
+            "reviews": 3246,
             "price": 0,
             "rate": {
-                "score": "8.8",
+                "score": "8.3",
                 "max": 10
             },
             "saveNum": 77,
@@ -152,75 +221,7 @@
             ],
             "system": ["android","ios","mac","linux","windows"]
         },
-        {
-            "name": "PIA",
-            "key": "pia",
-            "keyname": "",
-            "link": "https://privateinternetaccess.com/offer/gen_2jq97fevw",
-            "logoSrc": "/data/img/pravateinternetaccess.png",
-            "picture":"/data/img/PIA-p.png",
-            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3321,
-            "price": 2.85,
-            "rate": {
-                "score": "8.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "PIA: World's Leading VPN Service",
-            "feature": "A budget VPN with impressive streaming capabilities",
-            "meritList": [
-                
-                {
-                    "text": "3000+ servers in 48 countries"
-                },
-                {
-                    "text": "Uncapped bandwidth, support for P2P"
-                },
-                {
-                    "text": "Up to 10 devices simultaneous connections"
-                },
-                {
-                    "text": "Block ads, trackers and malware"
-                }
-                
-            ],
-            "system": ["android","ios","mac","router","linux","windows"]
-        },
-        {
-            "name": "CyberGhost",
-            "keyname": "CyberGhost-Review",
-            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
-            "logoSrc": "/data/img/CyberGhost.png",
-            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
-            "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3224,
-            "price": 2.75,
-            "rate": {
-                "score": "8.3",
-                "max": 10
-            },
-            "saveNum": 79,
-            "speaker": "",
-            "slogan": "CyberGhost: Fast Growing VPN Provider",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Connect securely to 90+ countries"
-                },
-                {
-                    "text": "Unlocks Netflix, BBC iPlayer, Disney+ & more"
-                },
-                {
-                    "text": "No user logs & no IP address leaks"
-                },
-                {
-                    "text": "24/7 live chat support"
-                }
-            ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
-        },
+        
         {
             "name": "Norton",
             "key": "norton",

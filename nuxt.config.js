@@ -3,7 +3,7 @@ const webpack = require('webpack');
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Best VPN of 2021 Cyberghost VPN | Nord VPN | Express VPN - VPN Collection',
+    title: 'Best VPN of 2021  Nord VPN | Surfshark VPN| Express VPN -Fast, Cheap, Safe VPN service',
     meta: [
       { charset: 'utf-8' },
       { hid: 'description', name: 'description', content: 'VPN Collection is the #1 best VPN service provider for you. Unblock Netflix, Hulu and more, access geo blocked websites and app, available on most devices. Enjoy best VPN for free!' },
