@@ -297,16 +297,12 @@ export default {
           // 判断是Google的流量还是bing的流量
 
           if (typeof gclid != 'undefined') {
-            if (key == 'ultravpn') {
-              return `${basePath}https://hotsale.featuredproduct.news/576399e9-4511-4ff2-9344-df0b19cd1124?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
-            } else if (key == 'nordvpn') {
+            if (key == 'nordvpn') {
               return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
             }
-            
-
           } else if (typeof msclkid != 'undefined') {
 
-            if (key == 'ultravpn' || key == 'nordvpn') {
+            if (key == 'surfshark' || key == 'nordvpn') {
 
               return `${basePath}${url}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
 
