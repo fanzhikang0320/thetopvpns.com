@@ -118,7 +118,41 @@
             ],
             "system": ["android","ios","mac","router","linux","windows"]
         },
-        
+        {
+            "name": "AtlasVPN",
+            "key": "atlasvpn",
+            "keyname": "",
+            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
+            "logoSrc": "/data/img/atlasvpn.png",
+            "picture":"",
+            "horizontalLogoSrc":"",
+            "reviews": 3464,
+            "price": 2.99,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "AtlasVPN: A Low-Cost Solution For Your Daily Needs",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
+            "meritList": [
+                {
+                    "text": "Cheapest price on 3-year package"
+                },
+                {
+                    "text": "No activity logging and total browsing encryption"
+                },
+                {
+                    "text": "Unlimited devices protected"
+                },
+                {
+                    "text": "Malware and phishing protection"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
         {
             "name": "CyberGhost",
             "keyname": "CyberGhost-Review",
@@ -126,10 +160,10 @@
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
             "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3424,
+            "reviews": 3324,
             "price": 2.75,
             "rate": {
-                "score": "8.8",
+                "score": "8.5",
                 "max": 10
             },
             "saveNum": 79,
@@ -160,10 +194,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3321,
+            "reviews": 3221,
             "price": 6.67,
             "rate": {
-                "score": "8.5",
+                "score": "8.3",
                 "max": 10
             },
             "speaker": "",
@@ -195,10 +229,10 @@
             "logoSrc": "/data/img/private.png",
             "picture":"/data/img",
             "horizontalLogoSrc":"",
-            "reviews": 3246,
+            "reviews": 3046,
             "price": 0,
             "rate": {
-                "score": "8.3",
+                "score": "8.0",
                 "max": 10
             },
             "saveNum": 77,
@@ -230,10 +264,10 @@
             "logoSrc": "/data/img/Norton.png",
             "horizontalLogoSrc": "/data/img/Norton-h.png",
             "picture":"/data/img/Norton-p.png",
-            "reviews": 3024,
+            "reviews": 2824,
             "price": 2.75,
             "rate": {
-                "score": "8.0",
+                "score": "7.8",
                 "max": 10
             },
             "saveNum": 79,
@@ -258,41 +292,7 @@
             "system": ["android","ios","mac","windows","linux"]
         },
         
-        {
-            "name": "UltraVPN",
-            "key": "ultravpn",
-            "keyname": "",
-            "link": "https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b",
-            "logoSrc": "/data/img/ULTRAVPN.png",
-            "picture":"/data/img/ULTRAVPN-p.png",
-            "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
-            "reviews": 2864,
-            "price": 2.99,
-            "rate": {
-                "score": "7.8",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
-            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
-            "meritList": [
-                {
-                    "text": "Cheapest price on 1-month package"
-                },
-                {
-                    "text": "No activity logging and total browsing encryption"
-                },
-                {
-                    "text": "Up to 5 devices protected simultaneously"
-                },
-                {
-                    "text": "Malware and phishing protection"
-                }
-                
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
+        
         
         
         {

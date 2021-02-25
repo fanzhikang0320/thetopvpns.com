@@ -1,0 +1,367 @@
+{
+    "data":[
+        {
+            "name": "NordVPN",
+            "key": "nordvpn",
+            "keyname": "Nord-VPN-Review",
+            "link": "https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b",
+            "logoSrc": "/data/img/NordVPN.png",
+            "picture":"/data/img/NordVPN-p.png",
+            "horizontalLogoSrc":"/data/img/NORD-h.png",
+            "reviews": 3852,
+            "price": "3.71",
+            "rate": {
+                "score": "9.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "68% de réduction aujourd'hui",
+            "slogan": "NordVPN: Un VPN complet de premier ordre, extrêmement sécurisé",
+            "feature": "Profitez de vitesses fulgurantes et d'un accès illimité dans le monde entier. Essayez le NordVPN pendant 30 jours.",
+            "meritList": [
+                {
+                    "text": "Un service VPN rapide avec des fonctions avancées de protection de la vie privée "
+                },
+                {
+                    "text": "Plus de 5 400 serveurs dans 59 pays"
+                },
+                {
+                    "text": "Streaming ininterrompu et partage P2P"
+                },
+                {
+                    "text": "Grand niveau de sécurité militaire"
+                },
+                {
+                    "text": "Haut débit, bande passante illimitée"
+                },
+                {
+                    "text": "Jusqu'à 6 appareils simultanément"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        
+        {
+            "name": "Surfshark",
+            "key": "surfshark",
+            "keyname": "Surfshark-Avis",
+            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
+            "logoSrc": "/data/img/Surfshark.png",
+            "picture":"/data/img/Surfshark-p.png",
+            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
+            "reviews": 3686,
+            "price": 2.49,
+            "rate": {
+                "score": "9.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Surfshark: Fournit une Protection de Confiance pour un Nombre Illimité de Dispositifs",
+            "feature": "Dispositifs illimités & P2P/torrenting anonyme",
+            "meritList": [
+                {
+                    "text": "Connexions de dispositifs illimitées"
+                },
+                {
+                    "text": "Le prix le plus bas pour un forfait de deux ans"
+                },
+                
+                {
+                    "text": "P2P/torrent illimité et anonyme"
+                },
+                {
+                    "text": "Pas de connexion d'utilisateur ni de fuite d'adresse IP"
+                },
+                {
+                    "text": "Des applications conviviales pour toutes les grandes plateformes"
+                }
+                
+            ],
+            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
+        },
+        
+        {
+            "name": "ExpressVPN",
+            "key": "expressVPN",
+            "keyname": "Express-VPN-Review",
+            "link": "https://www.xvbelink.com/?a_fid=5176798",
+            "logoSrc": "/data/img/ExpressVPN.png",
+            "picture":"/data/img/ExpressVPN-p.png",
+            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
+            "reviews": 3521,
+            "price": 6.67,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "speaker": "",
+            "saveNum": 77,
+            "slogan": "ExpressVPN: La technologie VPN la plus avancée pour un streaming ultra-rapide",
+            "feature": "L'un des VPN les plus populaires sur le marché, permet d'accéder facilement à un contenu restreint.",
+            "meritList": [
+                {
+                    "text": "Un des services VPN les plus rapides du marché"
+                },
+                {
+                    "text": "Connectez-vous en toute sécurité à plus de 90 pays avec plus de 3000 serveurs"
+                },
+                {
+                    "text": "Débloquer Netflix, BBC iPlayer, Disney+& plus"
+                },
+                {
+                    "text": "Une politique de zéro-connexion à 100%"
+                },
+                {
+                    "text": "Plus de 3000 serveurs dans 90 pays"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
+            "name": "PrivateVPN",
+            "key": "privatevpn",
+            "keyname": "",
+            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44",
+            "logoSrc": "/data/img/private.png",
+            "picture":"/data/img",
+            "horizontalLogoSrc":"",
+            "reviews": 3446,
+            "price": 0,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PrivateVPN: Budget VPN avec des capacités de streaming impressionnantes",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Connectez-vous en toute sécurité à plus de 60 pays"
+                },
+                {
+                    "text": "P2P/torrent illimité et privé"
+                },
+                {
+                    "text": "Travailler avec Netflix & plus"
+                },
+                {
+                    "text": "prix abordable"
+                }
+            ],
+            "system": ["android","ios","mac","linux","windows"]
+        },
+        {
+            "name": "PIA",
+            "key": "pia",
+            "keyname": "",
+            "link": "https://privateinternetaccess.com/offer/gen_2jq97fevw",
+            "logoSrc": "/data/img/pravateinternetaccess.png",
+            "picture":"/data/img/PIA-p.png",
+            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
+            "reviews": 3321,
+            "price": 2.85,
+            "rate": {
+                "score": "8.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PIA: Le premier service VPN au monde",
+            "feature": "Un budget VPN avec des capacités de streaming impressionnantes",
+            "meritList": [
+                
+                {
+                    "text": "Plus de 3000 serveurs dans 48 pays"
+                },
+                {
+                    "text": "Largeur de bande non plafonnée, prise en charge du P2P"
+                },
+                {
+                    "text": "Jusqu'à 10 appareils connectés simultanément"
+                },
+                {
+                    "text": "Bloquer les publicités, les traqueurs et les logiciels malveillants"
+                }
+                
+            ],
+            "system": ["android","ios","mac","router","linux","windows"]
+        },
+        {
+            "name": "CyberGhost",
+            "keyname": "CyberGhost-Review",
+            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
+            "logoSrc": "/data/img/CyberGhost.png",
+            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
+            "picture":"/data/img/CyberGhost-p.png",
+            "reviews": 3224,
+            "price": 2.75,
+            "rate": {
+                "score": "8.3",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "CyberGhost: Fournisseur VPN en pleine expansion",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Connectez-vous en toute sécurité à plus de 90 pays"
+                },
+                {
+                    "text": "Débloque Netflix, BBC iPlayer, Disney+ et plus"
+                },
+                {
+                    "text": "Pas de connexion d'utilisateur ni de fuite d'adresse IP"
+                },
+                {
+                    "text": "Assistance en ligne 24 heures sur 24 et 7 jours sur 7"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
+            "name": "Norton",
+            "key": "norton",
+            "keyname": "",
+            "link": "https://www.jdoqocy.com/click-100176895-13593334",
+            "logoSrc": "/data/img/Norton.png",
+            "horizontalLogoSrc": "/data/img/Norton-h.png",
+            "picture":"/data/img/Norton-p.png",
+            "reviews": 3024,
+            "price": 2.75,
+            "rate": {
+                "score": "8.0",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "meritList": [
+                {
+                    "text": "Offers security in browser and other mobile apps "
+                },
+                {
+                    "text": "1,500 servers spread across 29 countries"
+                },
+                {
+                    "text": "Flexible, competitive pricing"
+                },
+                {
+                    "text": "Built-in ad tracker blocking"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows","linux"]
+        },
+        
+        {
+            "name": "UltraVPN",
+            "key": "ultravpn",
+            "keyname": "",
+            "link": "https://hotsale.featuredproduct.news/774eca97-c51a-4ad7-83bd-2cf839c7756b",
+            "logoSrc": "/data/img/ULTRAVPN.png",
+            "picture":"/data/img/ULTRAVPN-p.png",
+            "horizontalLogoSrc":"/data/img/ULTRAVPN-h.png",
+            "reviews": 2864,
+            "price": 2.99,
+            "rate": {
+                "score": "7.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "UltraVPN: A Low-Cost Solution For Your Daily Needs",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
+            "meritList": [
+                {
+                    "text": "Cheapest price on 1-month package"
+                },
+                {
+                    "text": "No activity logging and total browsing encryption"
+                },
+                {
+                    "text": "Up to 5 devices protected simultaneously"
+                },
+                {
+                    "text": "Malware and phishing protection"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        
+        
+        {
+            "name": "PureVPN",
+            "key": "purevpn",
+            "keyname": "",
+            "link": "https://billing.purevpn.com/aff.php?aff=42530",
+            "logoSrc": "/data/img/purevpn.png",
+            "picture":"/data/img",
+            "horizontalLogoSrc":"",
+            "reviews": 2560,
+            "price": 0,
+            "rate": {
+                "score": "7.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PureVPN: Une connexion VPN constante avec des serveurs stables",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Prend en charge 7 bibliothèques Netflix et d'autres services de streaming"
+                },
+                {
+                    "text": "Plus de 6500 serveurs répartis sur plus de 180 sites"
+                },
+                {
+                    "text": "Offre 10 connexions multiples"
+                },
+                {
+                    "text": "Serveurs dédiés pour le streaming"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows"]
+        },
+        {
+            "name": "Ivacy",
+            "key": "ivacy",
+            "keyname": "",
+            "link": "https://www.ivacy.com/deals/?aff=92606",
+            "logoSrc": "/data/img/IVACYVPN.png",
+            "picture":"/data/img",
+            "horizontalLogoSrc":"",
+            "reviews": 1862,
+            "price": 0,
+            "rate": {
+                "score": "7.3",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Ivacy VPN: Vous garde toujours anonyme",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Des forfaits à long terme très bon marché"
+                },
+                {
+                    "text": "Plus de 2000 serveurs dans plus de 100 endroits"
+                },
+                {
+                    "text": "Débloque Netflix, iPlayer"
+                },
+                {
+                    "text": "Connexion simultanée à 10 appareils"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv"]
+        }
+        
+    ]
+}

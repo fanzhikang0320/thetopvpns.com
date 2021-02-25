@@ -1,0 +1,75 @@
+{
+    
+    "header": {
+        "home": "Top VPN",
+        "reviews": "Reseñas de VPN",
+        "about": "Sobre nosotros",
+        "language": {
+            "title": "Lanuage",
+            "fr": "Francés",
+            "es": "Español",
+            "en": "Inglés",
+            "it": "Italiano",
+            "de": "Deutsch"
+        }
+    },
+    "banner": {
+        "title": "Top {length} VPN de 2021",
+        "p1": "Permítanos ayudarle a encontrar el proveedor de VPN perfecto",
+        "p2": "Antes de optar por comprar servicios de VPN, querrá asegurarse de que los que está considerando ofrecen tantas ventajas y características como sea posible.",
+        "p3": "Top VPN compara los mejores proveedores de VPN para usted."
+    },
+    "product": {
+        "corner": {
+            "first": "Los más populares",
+            "second": "La mejor relación calidad-precio",
+            "third": "VPN más rápida"
+        },
+        "updated": "Última actualización",
+        "visit": "Visita",
+        "abailable": "Disponible en"
+    },
+    "disclosure": {
+        "title": "Declaración publicitaria",
+        "content": {
+            "p1": "TopVPN.com es apoyado por los lectores. Podemos ganar comisiones si compras una VPN a través de los enlaces de nuestro sitio.",
+            "p2": "Hemos creado este sitio web en torno a nuestros principios básicos de apertura, honestidad y transparencia. Tu confianza es lo más importante para nosotros, por lo que siempre seremos sinceros sobre cómo revisamos las VPN.",
+            "p3": "Cada VPN se somete a un programa de pruebas estandarizado, riguroso y en profundidad, compuesto por horas y horas de uso a manos de nuestros expertos. Esto significa que puedes comprar con confianza sabiendo que nuestras revisiones están totalmente actualizadas. Para saber más, echa un vistazo a Cómo revisamos las VPN.",
+            "p4": "Cuando se trata de mantener nuestro sitio web en funcionamiento, vamos a ser totalmente francos con usted sobre cómo operamos, cómo ganamos dinero y cómo podemos mantener el sitio como un recurso gratuito para nuestros millones de visitantes. Nuestro objetivo es ponerle a usted, el lector, en primer lugar en todo momento.",
+            "p5": "Nunca aceptaremos dinero para reseñar un producto",
+            "p6": "Nunca aceptaremos dinero para cambiar una reseña del producto",
+            "p7": "Nunca aceptaremos dinero para hacer la vista gorda ante un problema o defecto",
+            "p8": "Nunca aceptaremos dinero para sesgar nuestras investigaciones"
+            
+        }
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "useless": "Inútil",
+        "useful": "Útil",
+        "thanks": "Gracias"
+    },
+    "topPicks": {
+        "visit": "Visita",
+        "title": "Las mejores elecciones para 2021",
+        "read": "Lea nuestras reseñas"
+    },
+    "footer": {
+        "quickLink": {
+            "title": "Enlace rápido",
+            "about": "Sobre nosotros",
+            "private": "Políticas de privacidad",
+            "terms": "Términos de uso",
+            "faq": "Preguntas frecuentes"
+        },
+        "form": {
+            "contact": "Contacto",
+            "name": "Nombre",
+            "email": "Email",
+            "text": "Escriba su texto aquí...",
+            "submit": "Enviar"
+        },
+        "copyright": "Copyright © 2009-2021 Westwin Technologies Co. Ltd. Todos los Derechos Reservados.",
+        "desc": "Al utilizar nuestros contenidos, productos y servicios, usted acepta nuestras condiciones de servicio y nuestra política de privacidad"
+    }
+}

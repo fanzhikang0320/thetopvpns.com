@@ -284,7 +284,7 @@
 <script>
 export default {
  
-  async asyncData({ app, route }) {
+  async asyncData({ app, route, store }) {
       const changeLink = (url,key) => {
           let aff_sub = route.query['utm_term'],
               aff_sub2 = route.query['TargetId'],
@@ -298,16 +298,14 @@ export default {
           // 判断是Google的流量还是bing的流量
 
           if (typeof gclid != 'undefined') {
-            if (key == 'ultravpn') {
-              return `${basePath}https://hotsale.featuredproduct.news/576399e9-4511-4ff2-9344-df0b19cd1124?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
-            } else if (key == 'nordvpn') {
+            if (key == 'nordvpn') {
               return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
             }
             
 
           } else if (typeof msclkid != 'undefined') {
 
-            if (key == 'ultravpn' || key == 'nordvpn') {
+            if (key == 'surfshark' || key == 'nordvpn') {
 
               return `${basePath}${url}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
 
@@ -317,7 +315,19 @@ export default {
           return `${basePath}${url}`;
           
         }
-      const res = await app.$axios.get('/data/product.json');
+      // 获取当前语言环境
+      const language = store.state.locales.locale;
+      let res, result;
+
+      // 根据当前语种加载对应的数据
+      if (language == 'fr' || language == 'es' || language == 'de') {
+        res = await app.$axios.get(`/data/lang_${language}/product_${language}.json`);
+        result = await app.$axios.get(`/data/lang_${language}/question_${language}.json`);
+      } else {
+        res = await app.$axios.get('/data/product.json');
+        result = await app.$axios.get('/data/question.json');
+      }
+      
 
       res.data.data.forEach(element => {
 
@@ -342,7 +352,6 @@ export default {
           element.system = basic;
       });
 
-      const result = await app.$axios.get('/data/question.json');
       result.data.data.forEach(item => {
         item.useless = true;
         item.usefull = true;

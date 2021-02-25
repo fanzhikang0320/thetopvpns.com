@@ -1,5 +1,5 @@
 export const state = () => ({
-    locales: ['en','fr','es','it'],
+    locales: ['en','fr','es','it','de'],
     locale: 'en'
 })
 

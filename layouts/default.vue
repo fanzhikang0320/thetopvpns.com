@@ -30,6 +30,9 @@
             <li v-if="$i18n.locale != 'en'">
               <nuxt-link :to="changePath('en')" @click.native="toggleLanguage">{{$t('header.language.en')}}</nuxt-link>
             </li>
+            <li v-if="$i18n.locale != 'de'">
+              <nuxt-link :to="changePath('de')" @click.native="toggleLanguage">{{$t('header.language.de')}}</nuxt-link>
+            </li>
             <li v-if="$i18n.locale != 'fr'">
               <nuxt-link :to="changePath('fr')" @click.native="toggleLanguage">{{$t('header.language.fr')}}</nuxt-link>
             </li>
