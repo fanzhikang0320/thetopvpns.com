@@ -5,12 +5,12 @@
         "reviews": "Reseñas de VPN",
         "about": "Sobre nosotros",
         "language": {
-            "title": "Lanuage",
+            "title": "Idioma",
             "fr": "Francés",
             "es": "Español",
             "en": "Inglés",
             "it": "Italiano",
-            "de": "Deutsch"
+            "de": "Alemán"
         }
     },
     "banner": {

@@ -5,12 +5,12 @@
         "reviews": "VPN Reviews",
         "about": "À Propos de Nous",
         "language": {
-            "title": "Lanuage",
+            "title": "Langues",
             "fr": "Français",
             "es": "Espagnol",
             "en": "Anglais",
             "it": "Italien",
-            "de": "Deutsch"
+            "de": "Allemagne"
         }
     },
     "banner": {

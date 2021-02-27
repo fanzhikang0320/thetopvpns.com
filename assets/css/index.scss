@@ -257,6 +257,7 @@
                             flex-direction: row;
                             align-items: center;
                             >dt {
+                                flex-shrink: 0;
                                 font-weight: bold;
                                 color: #535353;
                             }
