@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "title": "Pourquoi devrais-je utiliser un VPN ?",
+            "content": "<p>Si vous naviguez en ligne, vous avez simplement besoin d'un VPN. Un VPN fiable vous aide à vous protéger contre le suivi en ligne <strong>, la censure et la cybercriminalité</strong>. Il vous permet également d'éviter les restrictions de bande passante et d'accéder à votre contenu préféré en toute sécurité, où que vous soyez.</p><p> Toutefois, <strong>ne vous laissez pas tenter par les services VPN gratuits car ils collectent et vendent souvent les données de leurs utilisateurs</strong>. Assurez-vous de choisir un service qui a une politique d'absence de connexion et qui a la confiance de millions d'internautes.</p>"
+        },
+        {
+            "title": "L'utilisation d'un VPN va-t-elle ralentir le débit de ma connexion internet ?",
+            "content": "<p>Cela dépend généralement de plusieurs facteurs, en premier lieu de la qualité du service VPN. Les meilleurs VPN auront des serveurs avec des vitesses de téléchargement <strong> illimitée</strong> et éviteront les ralentissements (le ralentissement ou l'accélération intentionnels d'un service Internet par un fournisseur de services Internet). Le facteur suivant à prendre en compte est la distance <strong> entre votre emplacement physique et le serveur</strong> auquel vous vous connectez. Si vous choisissez un serveur relativement proche de vous, votre vitesse Internet sera plus rapide que si vous aviez choisi un serveur situé à l'autre bout du monde. Parmi les autres facteurs, citons le niveau de cryptage et les protocoles que vous choisissez.</p>"
+        },
+        {
+            "title": "VPN gratuits ou VPN payants ?",
+            "content": "<p><strong>Les VPN payants et gratuits feront très probablement le travail, cependant, les VPN gratuits sont connus pour stocker les données des utilisateurs</strong>. Les services VPN gratuits réalisent généralement leurs bénéfices en vendant les données des utilisateurs à des sociétés à des fins publicitaires. Si vous voulez éviter cela à tout prix, votre meilleure chance sera d'acheter un abonnement VPN auprès d'un fournisseur fiable ayant une politique très transparente de zero connexion.</p>"
+        },
+        {
+            "title": "Puis-je utiliser mon VPN sur plusieurs appareils ?",
+            "content": "<p><strong>La majorité des principaux VPN vous permettent d'utiliser votre abonnement sur plusieurs appareils</strong>. Si vous partagez l'abonnement avec quelqu'un, ou si vous disposez de plusieurs ordinateurs, téléphones ou tablettes, assurez-vous de vérifier la dotation spécifique du service avant d'effectuer votre achat. Un autre conseil à garder à l'esprit est que certains routeurs ont des capacités VPN intégrées, ce qui signifie que vous pouvez simplement connecter votre routeur à votre VPN et que tous les appareils de votre réseau domestique seront également connectés. Si cela vous intéresse, vérifiez si votre service VPN prend en charge cette fonctionnalité et assurez-vous que votre routeur est compatible avec le logiciel.</p>"
+        },
+        {
+            "title": "Comment évalue-t-on les VPN ?",
+            "content": "<p>Trouver le meilleur VPN pour assurer votre sécurité en ligne semble impossible. Il existe des centaines de VPN, et chacun d'entre eux prétend être le meilleur. Nos experts ont passé des mois <strong>à tester minutieusement plus de 50 services pour déterminer lesquels font ce qu'ils promettent - et <strong>le font bien</strong>. Nous nous sommes connectés à ces VPN du monde entier, des chercheurs effectuant des tests dans des pays où l'accès à Internet est restreint, <strong>testant leur sécurité, leur fiabilité et la vitesse de leurs connexions</strong>.</p><p>Nous avons même passé quelques appels à Google et PayPal pour enquêter sur les rumeurs concernant certains VPN. <strong>Nous avons également retiré de la liste plusieurs VPN douteux</strong> : Bien qu'ils n'aient pas encore été pris en train de partager des données d'utilisateurs, nous craignons qu'ils ne le fassent bientôt.</p><p>Nos analyses honnêtes et complètes vous aideront à choisir le VPN qui vous convient, que vous souhaitiez <strong>utiliser Netflix en streaming, contourner la censure gouvernementale ou rester complètement anonyme en ligne</strong>.</p>"
+            
+        }
+
+    ]
+}

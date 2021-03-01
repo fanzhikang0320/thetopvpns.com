@@ -6,24 +6,45 @@
         <span class="icon menu-icon"></span>
         <ul class="website_nav">
           <li>
-            <nuxt-link to="/" >Top VPN</nuxt-link>
+            <nuxt-link :to="$i18n.path('')" >{{$t('header.home')}}</nuxt-link>
           </li>
           <li>
             <span class="text-title">
-              <span class="text">VPN Reviews</span>
+              <span class="text">{{$t('header.reviews')}}</span>
               <span class="icon"></span>
             </span>
             
             <ul class="reviews_nav_list">
               <li v-for="(item,index) in navList" :key="index">
-                <nuxt-link :to="{name: 'reviews-id',query: {id: item.keyname}}" @click.native="hideList">{{item.name}} Review</nuxt-link>
+                <nuxt-link :to="$i18n.path('reviews?id=' + item.keyname)" @click.native="hideList">{{item.name}} Review</nuxt-link>
               </li>
             </ul>
           </li>
           <li>
-            <nuxt-link to="/about">About us</nuxt-link>
+            <nuxt-link :to="$i18n.path('about')">{{$t('header.about')}}</nuxt-link>
           </li>
         </ul>
+        <div class="language-box">
+          <span class="language" @click="toggleLanguage"><span class="icon"></span>{{$t('header.language.title')}}</span>
+          <ul class="language-list">
+            <li v-if="$i18n.locale != 'en'">
+              <nuxt-link :to="changePath('en')" @click.native="toggleLanguage">{{$t('header.language.en')}}</nuxt-link>
+            </li>
+            <li v-if="$i18n.locale != 'de'">
+              <nuxt-link :to="changePath('de')" @click.native="toggleLanguage">{{$t('header.language.de')}}</nuxt-link>
+            </li>
+            <li v-if="$i18n.locale != 'fr'">
+              <nuxt-link :to="changePath('fr')" @click.native="toggleLanguage">{{$t('header.language.fr')}}</nuxt-link>
+            </li>
+            <li v-if="$i18n.locale != 'es'">
+              <nuxt-link :to="changePath('es')" @click.native="toggleLanguage">{{$t('header.language.es')}}</nuxt-link>
+            </li>
+            <li v-if="$i18n.locale != 'it'">
+              <nuxt-link :to="changePath('it')" @click.native="toggleLanguage">{{$t('header.language.it')}}</nuxt-link>
+            </li>
+            
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -39,38 +60,38 @@
         <div class="footer_right">
           <div class="footer_right_top">
             <dl class="quick_link_list">
-              <dt>Quick link:</dt>
+              <dt>{{$t('footer.quickLink.title')}}:</dt>
               <dd>
-                <nuxt-link to="/about">About us</nuxt-link>
+                <nuxt-link :to="$i18n.path('about')">{{$t('footer.quickLink.about')}}</nuxt-link>
               </dd>
               <dd>
-                <nuxt-link to="/private">Private Policy</nuxt-link>
+                <nuxt-link :to="$i18n.path('private')">{{$t('footer.quickLink.private')}}</nuxt-link>
               </dd>
               <dd>
-                <nuxt-link to="/terms">Terms of Use</nuxt-link>
+                <nuxt-link :to="$i18n.path('terms')">{{$t('footer.quickLink.terms')}}</nuxt-link>
               </dd>
               <dd>
-                <nuxt-link to="/faqs">FAQS</nuxt-link>
+                <nuxt-link :to="$i18n.path('faqs')">{{$t('footer.quickLink.faq')}}</nuxt-link>
               </dd>
             </dl>
             <div class="form_box">
-              <span class="contact_title">Contact Us:</span>
+              <span class="contact_title">{{$t('footer.form.contact')}}:</span>
               <form class="contact_us_form" @submit.prevent="onSubmit">
                 <div class="input-box">
                   <div class="form-left">
                     <label for="user">
                       <span class="icon user-icon"></span>
-                      <input type="text" name="username" v-model="username" id="user" placeholder="Name">
+                      <input type="text" autocomplete="off" name="username" v-model="username" id="user" :placeholder="$t('footer.form.name')">
                     </label>
                     <label for="email">
                       <span class="icon email-icon"></span>
-                      <input type="text" name="email" v-model="email" id="email" placeholder="Email">
+                      <input type="text" autocomplete="off" name="email" v-model="email" id="email" :placeholder="$t('footer.form.email')">
                     </label>
                   </div>
-                  <textarea name="content" v-model="content" id="content" cols="30" rows="4" placeholder="Input your text here......"></textarea>
+                  <textarea name="content" v-model="content" id="content" cols="30" rows="4" :placeholder="$t('footer.form.text')"></textarea>
                   
                 </div>
-                <button type="submit" class="submitBtn" @click="submitForm">Submit</button>
+                <button type="submit" class="submitBtn" @click="submitForm">{{$t('footer.form.submit')}}</button>
                 
               </form>
 
@@ -78,8 +99,8 @@
 
             
           </div>
-          <p class="copyright">Copyright © 2009-2021 Westwin Technologies Co. Ltd. All Rights Reserved.</p>
-            <p class="desc">By using our content, products & services you agree to our Terms of Service and Privacy Policy</p>
+          <p class="copyright">{{$t('footer.copyright')}}</p>
+            <p class="desc">{{$t('footer.desc')}}</p>
         </div>
       </div>
     </footer>
@@ -101,7 +122,23 @@
       }
     },
     methods: {
-      
+      toggleLanguage() {
+        this.$nextTick(() => {
+          $('.language-list').slideToggle('fast')
+        })
+      },
+      changePath(locale) {
+        let strArr = this.$route.fullPath.split('/');
+        let flag = this.$store.state.locales.locales.includes(strArr[1]);
+
+        if (flag && locale != strArr[1]) {
+          return this.$route.fullPath.replace(/^\/[^\/]+/, '/' + locale)
+        } else if (this.$route.fullPath == '' || this.$route.fullPath == '/') {
+          return '/' + locale
+        } else {
+          return '/' + locale + this.$route.fullPath
+        }
+      },
       async getLink() {
         let aff_sub = this.$route.query['utm_term'],
               aff_sub2 = this.$route.query['TargetId'],

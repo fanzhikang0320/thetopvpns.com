@@ -22,6 +22,7 @@ html,body {
     width: 100%;
     background-color: #ffffff;
     .header-container {
+      
       width: 1200px;
       margin: auto;
       display: flex;
@@ -126,6 +127,69 @@ html,body {
         }
   
   
+      }
+
+      .language-box {
+        position: relative;
+        
+        @media screen and (max-width: 750px){
+          display: none;
+        }
+        .language {
+          padding: 10px 15px;
+          border: 1px solid #4c98f5;
+          color: #4c98f5;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 5px;
+          .icon {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            background-image: url('../assets/image/international.svg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+          }
+        }
+        .language-list {
+          display: none;
+          position: absolute;
+          top: 35px;
+          left: 50%;
+          transform: translateX(-50%);
+          border: 1px solid #dddddd;
+          border-radius: 5px;
+          overflow: hidden;
+          li {
+            width: 122px;
+            height: 35px;
+            border-bottom: 1px solid #dddddd;
+            line-height: 35px;
+            text-align: center;
+            background-color: #fff;
+            cursor: pointer;
+            &:nth-last-of-type(1) {
+              border: none;
+            }
+
+            &:hover {
+              a {
+                color: #4c98f5;
+              }
+            }
+            a {
+              display: inline-block;
+              color: #101010;
+              width: 100%;
+              cursor: pointer;
+              height: 100%;
+              text-decoration: none;
+            }
+          }
+        }
       }
     }
     

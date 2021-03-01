@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "title": "¿Por qué debería utilizar una VPN?",
+            "content": "<p>Si navega por Internet, simplemente necesita una VPN. Una VPN fiable le ayuda a protegerse del <strong>rastreo en línea, la censura y la ciberdelincuencia</strong>. También te permite evitar la estrangulación del ancho de banda y acceder a tus contenidos favoritos de forma segura, estés donde estés.</p><p>Sin embargo,, <strong>no se deje tentar por los servicios VPN gratuitos, ya que a menudo recogen y venden los datos de sus usuarios</strong>. Asegúrate de elegir un servicio que tenga una política de no registro y que cuente con la confianza de millones de usuarios de Internet.</p>"
+        },
+        {
+            "title": "¿El uso de una VPN reducirá mi velocidad de Internet?",
+            "content": "Esto suele depender de varios factores, el primero y más importante, la calidad del servicio VPN. Las mejores VPN tendrán servidores con <strong>velocidades de descarga ilimitadas</strong> y evitarán el throttling (la ralentización o aceleración intencionada de un servicio de Internet por parte de un proveedor de servicios de Internet). El siguiente factor a tener en cuenta es la <strong>distancia entre tu ubicación física y el servidor</strong> al que te conectas. Si eliges un servidor que esté relativamente cerca de ti, tu velocidad de Internet será más rápida que si hubieras elegido un servidor al otro lado del mundo. Otros factores son el nivel de encriptación y los protocolos que elijas.</p>"
+        },
+        {
+            "title": "¿VPN gratuitas o de pago?",
+            "content": "<p><strong>Tanto las VPNs de pago como las gratuitas probablemente harán el trabajo, sin embargo, las VPNs gratuitas son notorias por almacenar los datos del usuario</strong>. Los servicios VPN gratuitos suelen obtener sus beneficios vendiendo los datos de los usuarios a las empresas con fines publicitarios. Si quieres evitar esto a toda costa, tu mejor opción será comprar una suscripción a una VPN de un proveedor fiable con una política muy transparente de cero registros.</p>"
+        },
+        {
+            "title": "¿Puedo utilizar mi VPN en varios dispositivos?",
+            "content": "<p><strong>La mayoría de las mejores VPN te permiten utilizar tu suscripción en múltiples dispositivos</strong>. Si vas a compartir la suscripción con alguien, o tienes varios ordenadores, teléfonos o tabletas, asegúrate de comprobar la asignación específica del servicio antes de realizar la compra. Otro consejo a tener en cuenta es que algunos routers tienen capacidades VPN integradas, lo que significa que puedes simplemente conectar tu router a tu VPN y entonces todos los dispositivos de tu red doméstica estarán conectados también. Si esto te interesa, comprueba si tu servicio de VPN lo admite y asegúrate de que tu router es compatible con el software.</p>"
+        },
+        {
+            "title": "¿Cómo calificamos las VPN?",
+            "content": "<p>Encontrar la mejor VPN para mantenerte seguro en línea parece imposible. Hay cientos de VPN en el mercado, y cada una de ellas dice ser la mejor. Nuestros expertos han pasado meses <strong>probando cuidadosamente más de 50 servicios</strong> para determinar cuáles hacen lo que prometen, y <strong>lo hacen bien</strong>. Nos conectamos a estas VPN de todo el mundo, con investigadores que realizaron pruebas en países con restricciones de Internet, <strong>probando su seguridad, su fiabilidad y la velocidad de sus conexiones</strong>.</p><p>Incluso hicimos algunas llamadas a Google y PayPal para investigar los rumores que rodean a algunas VPN. <strong>También eliminamos de la lista varias VPNs sospechosas</strong>: Aunque todavía no han sido descubiertas compartiendo los datos de los usuarios, nos preocupa que pronto lo hagan.</p><p>Nuestras honestas y completas reseñas te ayudarán a elegir la VPN adecuada para ti, tanto si quieres <strong>streamear Netflix</strong>, sortear la censura gubernamental o mantenerte completamente anónimo en Internet</strong>.</p>"
+            
+        }
+
+    ]
+}

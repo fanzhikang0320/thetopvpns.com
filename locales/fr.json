@@ -1,0 +1,75 @@
+{
+    
+    "header": {
+        "home": "Top VPN",
+        "reviews": "VPN Reviews",
+        "about": "À Propos de Nous",
+        "language": {
+            "title": "Langues",
+            "fr": "Français",
+            "es": "Espagnol",
+            "en": "Anglais",
+            "it": "Italien",
+            "de": "Allemagne"
+        }
+    },
+    "banner": {
+        "title": "Top {length}} VPN de 2021",
+        "p1": "Laissez-nous vous aider à trouver le fournisseur VPN idéal",
+        "p2": "Avant d'opter pour l'achat de services VPN, vous devez vous assurer que ceux que vous envisagez d'acheter offrent le plus grand nombre possible des avantages et caractéristiques ci-dessus.",
+        "p3": "Top VPN a comparé les meilleurs fournisseurs de VPN pour vous."
+    },
+    "product": {
+        "corner": {
+            "first": "Les plus populaires",
+            "second": "VPN le moins cher",
+            "third": "Le VPN le plus rapide"
+        },
+        "updated": "Dernière mise à jour",
+        "visit": "Consultez",
+        "abailable": "Disponible sur"
+    },
+    "disclosure": {
+        "title": "Divulgation de la Publicité",
+        "content": {
+            "p1": "Le site TopVPN.com est accessible aux lecteurs. Nous pouvons percevoir des commissions si vous achetez un VPN par le biais de liens sur notre site.",
+            "p2": "Nous avons créé ce site web en nous appuyant sur nos principes fondamentaux d'ouverture, d'honnêteté et de transparence. Votre confiance est de la plus haute importance pour nous, c'est pourquoi nous serons toujours francs sur la manière dont nous examinons les VPN.",
+            "p3": "Chaque VPN est soumis à un programme de test standardisé, rigoureux et approfondi, qui comprend des heures et des heures d'utilisation par nos experts. Cela signifie que vous pouvez acheter en toute confiance en sachant que nos évaluations sont parfaitement à jour. Pour en savoir plus, veuillez consulter la rubrique Comment nous évaluons les VPN.",
+            "p4": "En ce qui concerne le fonctionnement de notre site web, nous allons vous expliquer en détail comment nous fonctionnons, comment nous gagnons de l'argent et comment nous pouvons faire en sorte que le site reste une ressource gratuite pour nos millions de visiteurs. Notre objectif est de vous mettre, vous le lecteur, au premier plan à tout moment.",
+            "p5": "Nous n'accepterons jamais d'argent pour examiner un produit",
+            "p6": "Nous n'accepterons jamais d'argent pour modifier une évaluation de produit",
+            "p7": "Nous n'accepterons jamais d'argent pour fermer les yeux sur un problème ou une faille",
+            "p8": "Nous n'accepterons jamais d'argent pour influencer nos recherches ou nos enquêtes"
+            
+        }
+    },
+    "faq": {
+        "title": "Foire Aux Questions",
+        "useless": "Inutile",
+        "useful": "Utile",
+        "thanks": "Merci"
+    },
+    "topPicks": {
+        "visit": "Consultez ",
+        "title": "Les Meilleurs Choix pour 2021",
+        "read": "Lire nos Commentaires"
+    },
+    "footer": {
+        "quickLink": {
+            "title": "Lien Rapide",
+            "about": "À Propos de Nous",
+            "private": "Politique Privée",
+            "terms": "Conditions d'Utilisation",
+            "faq": "FAQs"
+        },
+        "form": {
+            "contact": "Contactez-nous",
+            "name": "Nom",
+            "email": "E-mail",
+            "text": "Saisissez votre texte ici...",
+            "submit": "Soumettre"
+        },
+        "copyright": "Droits d'auteur © 2009-2021 Westwin Technologies Co. Ltd. Tous droits réservés.",
+        "desc": "En vous servant de notre contenu, de nos produits et de nos services, vous acceptez nos conditions d'utilisation et notre politique de confidentialité"
+    }
+}
