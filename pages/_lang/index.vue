@@ -320,7 +320,7 @@ export default {
       let res, result;
 
       // 根据当前语种加载对应的数据
-      if (language == 'fr' || language == 'es' || language == 'de') {
+      if (language == 'fr' || language == 'es' || language == 'de' || language == 'it') {
         res = await app.$axios.get(`/data/lang_${language}/product_${language}.json`);
         result = await app.$axios.get(`/data/lang_${language}/question_${language}.json`);
       } else {
