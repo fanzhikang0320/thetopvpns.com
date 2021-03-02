@@ -50,7 +50,7 @@
     <main>
       <Nuxt />
       <!-- <Message :url="mainLink" /> -->
-      
+      <Nord :url="mainLink"/>
     </main>
     
 
@@ -108,7 +108,9 @@
   </div>
 </template>
 <script>
+import Nord from '~/components/nord.vue'
   export default {
+  components: { Nord },
     data() {
       return {
         mainLink: '',
@@ -152,15 +154,12 @@
         const res = await this.$axios.$get('/data/product.json');
 
         res.data.forEach(element => {
-          if (element.key == 'ultravpn') {
 
-            if (typeof gclid != 'undefined') {
-              element.link = `${basePath}https://hotsale.featuredproduct.news/576399e9-4511-4ff2-9344-df0b19cd1124?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
-            } else if (typeof msclkid != 'undefined') {
-              element.link = `${basePath}${element.link}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
-            }
+          if (element.key == 'nordvpn') {
 
-            this.mainLink = `${basePath}${element.link}`;
+            element.link = `${basePath}${element.link}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
+            
+            this.mainLink = element.link;
           }
         })
 

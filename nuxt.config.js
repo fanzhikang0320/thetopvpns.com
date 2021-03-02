@@ -19,10 +19,10 @@ export default {
   },
   server: {
     port: '3000', // 配置服务端口号
-    host: '192.168.50.171'
+    host: '127.0.0.1'
   },
   axios: {
-    baseURL: 'http://192.168.50.171:3000'
+    baseURL: 'http://127.0.0.1:3000'
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
