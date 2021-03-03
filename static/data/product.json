@@ -187,6 +187,40 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
+            "name": "BullGuard",
+            "key": "bullguardVPN",
+            "keyname": "",
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img",
+            "horizontalLogoSrc":"",
+            "reviews": 3260,
+            "price": 0,
+            "rate": {
+                "score": "8.3",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "BullguardVPN: Steady VPN Connection With Stable Servers",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Simple and easy to use"
+                },
+                {
+                    "text": "No logging or tracking policy"
+                },
+                {
+                    "text": "Military-grade encryption"
+                },
+                {
+                    "text": "6 simultaneous connections"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
             "name": "ExpressVPN",
             "key": "expressVPN",
             "keyname": "Express-VPN-Review",
@@ -194,10 +228,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3221,
+            "reviews": 3021,
             "price": 6.67,
             "rate": {
-                "score": "8.3",
+                "score": "8.0",
                 "max": 10
             },
             "speaker": "",
@@ -229,10 +263,10 @@
             "logoSrc": "/data/img/private.png",
             "picture":"/data/img",
             "horizontalLogoSrc":"",
-            "reviews": 3046,
+            "reviews": 2846,
             "price": 0,
             "rate": {
-                "score": "8.0",
+                "score": "7.8",
                 "max": 10
             },
             "saveNum": 77,
@@ -264,10 +298,10 @@
             "logoSrc": "/data/img/Norton.png",
             "horizontalLogoSrc": "/data/img/Norton-h.png",
             "picture":"/data/img/Norton-p.png",
-            "reviews": 2824,
+            "reviews": 2524,
             "price": 2.75,
             "rate": {
-                "score": "7.8",
+                "score": "7.5",
                 "max": 10
             },
             "saveNum": 79,
@@ -295,40 +329,7 @@
         
         
         
-        {
-            "name": "PureVPN",
-            "key": "purevpn",
-            "keyname": "",
-            "link": "https://billing.purevpn.com/aff.php?aff=42530",
-            "logoSrc": "/data/img/purevpn.png",
-            "picture":"/data/img",
-            "horizontalLogoSrc":"",
-            "reviews": 2560,
-            "price": 0,
-            "rate": {
-                "score": "7.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "PureVPN: Steady VPN Connection With Stable Servers",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Supports 7 Netflix libraries and other streaming services"
-                },
-                {
-                    "text": "6500+ servers from 180+ locations"
-                },
-                {
-                    "text": "Offers 10 multi-logins"
-                },
-                {
-                    "text": "Dedicated Servers for streaming"
-                }
-            ],
-            "system": ["android","ios","mac","router","linux","windows"]
-        },
+        
         {
             "name": "Ivacy",
             "key": "ivacy",
