@@ -295,23 +295,30 @@ export default {
               aff_sub5 = key + '_homepage',
               basePath = '/jump?url=';
 
+            let source = 'facebook';
+              
+
+// ?source={{site_source_name}}&cpid=5fe54e0d-b2c9-4847-8f88-35486abaf197&offer_id=15&aff_id=3436&source=fb1&&aff_click_id={clickid}
+
           // 判断是Google的流量还是bing的流量
 
-          if (typeof gclid != 'undefined') {
-            if (key == 'nordvpn') {
-              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
-            }
+          // if (typeof gclid != 'undefined') {
+          //   if (key == 'nordvpn') {
+          //     return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
+          //   }
             
 
-          } else if (typeof msclkid != 'undefined') {
+          // } else if (typeof msclkid != 'undefined') {
 
-            if (key == 'surfshark' || key == 'nordvpn') {
+          //   if (key == 'surfshark' || key == 'nordvpn') {
 
-              return `${basePath}${url}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
+          //     return `${basePath}${url}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
 
-            }
+          //   }
 
-          }
+          // }
+          // return `${basePath}${url}`;
+
           return `${basePath}${url}`;
           
         }
