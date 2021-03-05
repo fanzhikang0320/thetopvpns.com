@@ -81,136 +81,35 @@
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
-            "name": "PIA",
-            "key": "pia",
+            "name": "BullGuard",
+            "key": "bullguardVPN",
             "keyname": "",
-            "link": "https://ho-app.kape.com/aff_c?offer_id=1466&aff_id=9300",
-            "logoSrc": "/data/img/pravateinternetaccess.png",
-            "picture":"/data/img/PIA-p.png",
-            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3521,
-            "price": 2.85,
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img/bullguard-p.png",
+            "horizontalLogoSrc":"",
+            "reviews": 3560,
+            "price": 0,
             "rate": {
                 "score": "9.1",
                 "max": 10
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "PIA: Le premier service VPN au monde",
-            "feature": "Un budget VPN avec des capacités de streaming impressionnantes",
-            "meritList": [
-                
-                {
-                    "text": "Plus de 3000 serveurs dans 48 pays"
-                },
-                {
-                    "text": "Largeur de bande non plafonnée, prise en charge du P2P"
-                },
-                {
-                    "text": "Jusqu'à 10 appareils connectés simultanément"
-                },
-                {
-                    "text": "Bloquer les publicités, les traqueurs et les logiciels malveillants"
-                }
-                
-            ],
-            "system": ["android","ios","mac","router","linux","windows"]
-        },
-        {
-            "name": "AtlasVPN",
-            "key": "atlasvpn",
-            "keyname": "",
-            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
-            "logoSrc": "/data/img/atlasvpn.png",
-            "picture":"",
-            "horizontalLogoSrc":"",
-            "reviews": 3464,
-            "price": 2.99,
-            "rate": {
-                "score": "8.8",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "AtlasVPN: Solutions à faible coût pour répondre à vos besoins quotidiens",
-            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
-            "meritList": [
-                {
-                    "text": "Prix le moins cher pour un forfait de trois ans"
-                },
-                {
-                    "text": "Aucun enregistrement actif et chiffrement complet de la navigation"
-                },
-                {
-                    "text": "Dispositifs illimités protégés"
-                },
-                {
-                    "text": "Protection contre les logiciels malveillants et l'hameçonnage"
-                }
-                
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
-        {
-            "name": "CyberGhost",
-            "keyname": "CyberGhost-Review",
-            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
-            "logoSrc": "/data/img/CyberGhost.png",
-            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
-            "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3324,
-            "price": 2.75,
-            "rate": {
-                "score": "8.5",
-                "max": 10
-            },
-            "saveNum": 79,
-            "speaker": "",
-            "slogan": "CyberGhost: Fournisseur VPN en pleine expansion",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Connectez-vous en toute sécurité à plus de 90 pays"
-                },
-                {
-                    "text": "Débloque Netflix, BBC iPlayer, Disney+ et plus"
-                },
-                {
-                    "text": "Pas de connexion d'utilisateur ni de fuite d'adresse IP"
-                },
-                {
-                    "text": "Assistance en ligne 24 heures sur 24 et 7 jours sur 7"
-                }
-            ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
-        },
-        {
-            "name": "BullGuard",
-            "key": "bullguardVPN",
-            "keyname": "",
-            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
-            "logoSrc": "/data/img/bullguard.png",
-            "picture":"/data/img",
-            "horizontalLogoSrc":"",
-            "reviews": 3260,
-            "price": 0,
-            "rate": {
-                "score": "8.3",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "BullGuard: Connexion VPN stable et serveur stable",
-            "feature": "",
+            "slogan": "BullGuard VPN: Utiliser le meilleur niveau de chiffrement actuellement disponible",
+            "feature": "Protégez votre vie privée avec un chiffrement militaire.",
             "meritList": [
                 {
                     "text": "Facile à utiliser"
                 },
                 {
+                    "text": "Débloquer presque n'importe quel service de streaming"
+                },
+                {
                     "text": "Aucune politique de journalisation ou de suivi"
                 },
                 {
-                    "text": "Cryptage militaire"
+                    "text": "Jusqu'à 6 appareils de synchronisation"
                 },
                 {
                     "text": "6 connexion simultanée"
@@ -226,10 +125,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3021,
+            "reviews": 3421,
             "price": 6.67,
             "rate": {
-                "score": "8.0",
+                "score": "8.8",
                 "max": 10
             },
             "speaker": "",
@@ -255,6 +154,111 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
+        {
+            "name": "PIA",
+            "key": "pia",
+            "keyname": "",
+            "link": "https://ho-app.kape.com/aff_c?offer_id=1466&aff_id=9300",
+            "logoSrc": "/data/img/pravateinternetaccess.png",
+            "picture":"/data/img/PIA-p.png",
+            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
+            "reviews": 3321,
+            "price": 2.85,
+            "rate": {
+                "score": "8.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PIA: Le premier service VPN au monde",
+            "feature": "Un budget VPN avec des capacités de streaming impressionnantes",
+            "meritList": [
+                
+                {
+                    "text": "Plus de 3000 serveurs dans 48 pays"
+                },
+                {
+                    "text": "Largeur de bande non plafonnée, prise en charge du P2P"
+                },
+                {
+                    "text": "Jusqu'à 10 appareils connectés simultanément"
+                },
+                {
+                    "text": "Bloquer les publicités, les traqueurs et les logiciels malveillants"
+                }
+                
+            ],
+            "system": ["android","ios","mac","router","linux","windows"]
+        },
+        {
+            "name": "CyberGhost",
+            "keyname": "CyberGhost-Review",
+            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
+            "logoSrc": "/data/img/CyberGhost.png",
+            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
+            "picture":"/data/img/CyberGhost-p.png",
+            "reviews": 3224,
+            "price": 2.75,
+            "rate": {
+                "score": "8.3",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "CyberGhost: Fournisseur VPN en pleine expansion",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Connectez-vous en toute sécurité à plus de 90 pays"
+                },
+                {
+                    "text": "Débloque Netflix, BBC iPlayer, Disney+ et plus"
+                },
+                {
+                    "text": "Pas de connexion d'utilisateur ni de fuite d'adresse IP"
+                },
+                {
+                    "text": "Assistance en ligne 24 heures sur 24 et 7 jours sur 7"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
+            "name": "AtlasVPN",
+            "key": "atlasvpn",
+            "keyname": "",
+            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
+            "logoSrc": "/data/img/atlasvpn.png",
+            "picture":"",
+            "horizontalLogoSrc":"",
+            "reviews": 3064,
+            "price": 2.99,
+            "rate": {
+                "score": "8.0",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "AtlasVPN: Solutions à faible coût pour répondre à vos besoins quotidiens",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
+            "meritList": [
+                {
+                    "text": "Prix le moins cher pour un forfait de trois ans"
+                },
+                {
+                    "text": "Aucun enregistrement actif et chiffrement complet de la navigation"
+                },
+                {
+                    "text": "Dispositifs illimités protégés"
+                },
+                {
+                    "text": "Protection contre les logiciels malveillants et l'hameçonnage"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        
         {
             "name": "PrivateVPN",
             "key": "privatevpn",

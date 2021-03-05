@@ -81,6 +81,78 @@
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
+            "name": "BullGuard",
+            "key": "bullguardVPN",
+            "keyname": "",
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img/bullguard-p.png",
+            "horizontalLogoSrc":"/data/img/bullguard-h.png",
+            "reviews": 3560,
+            "price": 0,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "BullGuard VPN: Use Best Level of Encryption Currently Available",
+            "feature": "Secure your privacy with military-grade encryption.",
+            "meritList": [
+                {
+                    "text": "Simple and easy to use"
+                },
+                {
+                    "text": "Unblock almost any streaming service"
+                },
+                {
+                    "text": "No logging or tracking policy"
+                },
+                {
+                    "text": "Up to 6 simultaneous devices"
+                },
+                {
+                    "text": "6 simultaneous connections"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
+            "name": "ExpressVPN",
+            "key": "expressVPN",
+            "keyname": "Express-VPN-Review",
+            "link": "https://www.xvbelink.com/?a_fid=5176798",
+            "logoSrc": "/data/img/ExpressVPN.png",
+            "picture":"/data/img/ExpressVPN-p.png",
+            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
+            "reviews": 3421,
+            "price": 6.67,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "speaker": "",
+            "saveNum": 77,
+            "slogan": "ExpressVPN: Most Advanced VPN Technology for Ultra-fast Streaming",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "meritList": [
+                
+                {
+                    "text": "Connect securely to 90+ countries with 3000+ servers"
+                },
+                {
+                    "text": "Unblock Netflix, BBC iPlayer, Disney+& more"
+                },
+                {
+                    "text": "100% zero-logs policy"
+                },
+                {
+                    "text": "3000+servers in 90 countries"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
             "name": "PIA",
             "key": "pia",
             "keyname": "",
@@ -88,10 +160,10 @@
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3521,
+            "reviews": 3321,
             "price": 2.85,
             "rate": {
-                "score": "9.1",
+                "score": "8.5",
                 "max": 10
             },
             "saveNum": 77,
@@ -119,51 +191,16 @@
             "system": ["android","ios","mac","router","linux","windows"]
         },
         {
-            "name": "AtlasVPN",
-            "key": "atlasvpn",
-            "keyname": "",
-            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
-            "logoSrc": "/data/img/atlasvpn.png",
-            "picture":"",
-            "horizontalLogoSrc":"",
-            "reviews": 3464,
-            "price": 2.99,
-            "rate": {
-                "score": "8.8",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "AtlasVPN: A Low-Cost Solution For Your Daily Needs",
-            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
-            "meritList": [
-                {
-                    "text": "Cheapest price on 3-year package"
-                },
-                {
-                    "text": "No activity logging and total browsing encryption"
-                },
-                {
-                    "text": "Unlimited devices protected"
-                },
-                {
-                    "text": "Malware and phishing protection"
-                }
-                
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
-        {
             "name": "CyberGhost",
             "keyname": "CyberGhost-Review",
             "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
             "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3324,
+            "reviews": 3224,
             "price": 2.75,
             "rate": {
-                "score": "8.5",
+                "score": "8.3",
                 "max": 10
             },
             "saveNum": 79,
@@ -187,74 +224,43 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
-            "name": "BullGuard",
-            "key": "bullguardVPN",
+            "name": "AtlasVPN",
+            "key": "atlasvpn",
             "keyname": "",
-            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
-            "logoSrc": "/data/img/bullguard.png",
-            "picture":"/data/img",
+            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
+            "logoSrc": "/data/img/atlasvpn.png",
+            "picture":"",
             "horizontalLogoSrc":"",
-            "reviews": 3260,
-            "price": 0,
-            "rate": {
-                "score": "8.3",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "BullGuard: Steady VPN Connection With Stable Servers",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Simple and easy to use"
-                },
-                {
-                    "text": "No logging or tracking policy"
-                },
-                {
-                    "text": "Military-grade encryption"
-                },
-                {
-                    "text": "6 simultaneous connections"
-                }
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
-        {
-            "name": "ExpressVPN",
-            "key": "expressVPN",
-            "keyname": "Express-VPN-Review",
-            "link": "https://www.xvbelink.com/?a_fid=5176798",
-            "logoSrc": "/data/img/ExpressVPN.png",
-            "picture":"/data/img/ExpressVPN-p.png",
-            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3021,
-            "price": 6.67,
+            "reviews": 3064,
+            "price": 2.99,
             "rate": {
                 "score": "8.0",
                 "max": 10
             },
-            "speaker": "",
             "saveNum": 77,
-            "slogan": "ExpressVPN: Most Advanced VPN Technology for Ultra-fast Streaming",
-            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "speaker": "",
+            "slogan": "AtlasVPN: A Low-Cost Solution For Your Daily Needs",
+            "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
             "meritList": [
-                
                 {
-                    "text": "Connect securely to 90+ countries with 3000+ servers"
+                    "text": "Cheapest price on 3-year package"
                 },
                 {
-                    "text": "Unblock Netflix, BBC iPlayer, Disney+& more"
+                    "text": "No activity logging and total browsing encryption"
                 },
                 {
-                    "text": "100% zero-logs policy"
+                    "text": "Unlimited devices protected"
                 },
                 {
-                    "text": "3000+servers in 90 countries"
+                    "text": "Malware and phishing protection"
                 }
+                
             ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","windows"]
         },
+        
+        
+        
         {
             "name": "PrivateVPN",
             "key": "privatevpn",
