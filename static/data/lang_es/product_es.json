@@ -84,7 +84,7 @@
             "name": "PIA",
             "key": "pia",
             "keyname": "",
-            "link": "http://ho-app.cyberghostvpn.com/aff_c?offer_id=1484&aff_id=9300",
+            "link": "https://ho-app.kape.com/aff_c?offer_id=1466&aff_id=9300",
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
@@ -200,7 +200,7 @@
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "BullguardVPN: Conexiones VPN estables y servidores estables",
+            "slogan": "BullGuard: Conexiones VPN estables y servidores estables",
             "feature": "",
             "meritList": [
                 {

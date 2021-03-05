@@ -161,7 +161,8 @@
               <div class="btn-box">
                 <a :href="product.link" class="visit_btn" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute">{{$t('product.visit')}} {{product.name}}</a>
                 <a :href="product.link" class="text-link" :data-key="product.key" target="_blank" rel="noopener noreferrer" @click.self="execute" v-if="product.speaker && product.speaker != ''"><span class="volume-icon"></span><span>{{product.speaker}}</span></a>
-                <span v-if="product.key == 'surfshark'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">$12.95/mo</del><span style="color: #e83f60;font-weight:bold;">$2.49/mo</span></span>
+                <span v-if="product.key == 'surfshark' && $store.state.locales.locale == 'en'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">$12.95/mo</del><span style="color: #e83f60;font-weight:bold;">$2.49/mo</span></span>
+                <span v-else-if="product.key == 'surfshark'" style="margin-top: 10px;display:inline-block;"><del style="margin-right: 5px;">€10.75/mo</del><span style="color: #e83f60;font-weight:bold;">€2.07/mo</span></span>
               </div>
               
             </div>
