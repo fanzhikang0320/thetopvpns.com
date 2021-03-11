@@ -100,6 +100,9 @@
             "feature": "Protégez votre vie privée avec un chiffrement militaire.",
             "meritList": [
                 {
+                    "text": "Cryptage militaire"
+                },
+                {
                     "text": "Facile à utiliser"
                 },
                 {
@@ -110,9 +113,6 @@
                 },
                 {
                     "text": "Jusqu'à 6 appareils de synchronisation"
-                },
-                {
-                    "text": "6 connexion simultanée"
                 }
             ],
             "system": ["android","ios","mac","windows"]

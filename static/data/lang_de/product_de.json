@@ -100,6 +100,9 @@
             "feature": "Sichern Sie sich Ihre Privatsphäre mit Geheimverschlüsselung.",
             "meritList": [
                 {
+                    "text": "Militärische Verschlüsselung"
+                },
+                {
                     "text": "Einfach und einfach zu bedienen"
                 },
                 {
@@ -110,9 +113,6 @@
                 },
                 {
                     "text": "Bis zu 6 gleichzeitige Geräte"
-                },
-                {
-                    "text": "6 gleichzeitige Verbindungen"
                 }
             ],
             "system": ["android","ios","mac","windows"]

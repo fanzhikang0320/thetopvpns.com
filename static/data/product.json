@@ -100,6 +100,9 @@
             "feature": "Secure your privacy with military-grade encryption.",
             "meritList": [
                 {
+                    "text": "Military-grade encryption"
+                },
+                {
                     "text": "Simple and easy to use"
                 },
                 {
@@ -110,9 +113,6 @@
                 },
                 {
                     "text": "Up to 6 simultaneous devices"
-                },
-                {
-                    "text": "6 simultaneous connections"
                 }
             ],
             "system": ["android","ios","mac","windows"]

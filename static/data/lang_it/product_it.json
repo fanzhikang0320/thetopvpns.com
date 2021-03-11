@@ -101,6 +101,9 @@
             "feature": "Proteggi la tua privacy con cifratura militare.",
             "meritList": [
                 {
+                    "text": "Cifratura militare"
+                },
+                {
                     "text": "Semplice e facile da usare"
                 },
                 {
@@ -111,9 +114,6 @@
                 },
                 {
                     "text": "Dispositivi simultanei fino a 6"
-                },
-                {
-                    "text": "6 connessioni simultanee"
                 }
             ],
             "system": ["android","ios","mac","windows"]

@@ -100,6 +100,9 @@
             "feature": "Use cifrado militar para proteger su privacidad.",
             "meritList": [
                 {
+                    "text": "Cifrado militar"
+                },
+                {
                     "text": "Fácil de usar"
                 },
                 {
@@ -110,9 +113,6 @@
                 },
                 {
                     "text": "Hasta 6 dispositivos sincrónicos"
-                },
-                {
-                    "text": "6 conexión simultánea"
                 }
             ],
             "system": ["android","ios","mac","windows"]
