@@ -302,7 +302,7 @@ export default {
           if (typeof gclid != 'undefined') {
 
             if (key == 'nordvpn') {
-              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
+              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
             } else if (key == 'surfshark') {
               return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?campaignid=g&keyword=${aff_sub}&targetid=${aff_sub2}&gclid=${gclid}`
             }

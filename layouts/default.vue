@@ -51,6 +51,7 @@
       <Nuxt />
       <!-- <Message :url="mainLink" /> -->
       <Nord2 :url="mainLink"/>
+      <!-- <Message2 :url="mainLink" /> -->
     </main>
     
 
