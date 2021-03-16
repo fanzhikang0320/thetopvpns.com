@@ -6,8 +6,8 @@ export default {
     title: 'Best VPN of 2021  Nord VPN | Surfshark VPN| Express VPN -Fast, Cheap, Safe VPN service',
     meta: [
       { charset: 'utf-8' },
-      { hid: 'description', name: 'description', content: 'VPN Collection is the #1 best VPN service provider for you. Unblock Netflix, Hulu and more, access geo blocked websites and app, available on most devices. Enjoy best VPN for free!' },
-      { hid: 'keyword', name: 'keyword', content: 'VPN Collection, BEST VPN'}
+      { hid: 'description', name: 'description', content: 'thetopVPN  helps you find the best VPN provider of 2021. Honest user & experts reviews on VPNs - speed, price, features. ' },
+      { hid: 'keyword', name: 'keyword', content: 'Best VPN of 2021, VPN download, Free VPN'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -19,10 +19,10 @@ export default {
   },
   server: {
     port: '3000', // 配置服务端口号
-    host: '192.168.50.171'
+    host: '127.0.0.1'
   },
   axios: {
-    baseURL: 'http://192.168.50.171:3000'
+    baseURL: 'http://127.0.0.1:3000'
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [

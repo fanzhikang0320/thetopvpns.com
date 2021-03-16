@@ -288,13 +288,15 @@ export default {
  
   async asyncData({ app, route, store }) {
       const changeLink = (url,key) => {
-          let aff_sub = route.query['utm_term'],
-              aff_sub2 = route.query['TargetId'],
+          let keyword = route.query['utm_term'],
+              targetId = route.query['TargetId'],
               aff_sub3 = route.query['loc'],
               msclkid = route.query['msclkid'],
               gclid = route.query['gclid'],
+              campaignid = route.query['utm_campaign'],
               aff_sub4 = Math.floor(new Date().getTime() / 1000),
               aff_sub5 = key + '_homepage',
+
               basePath = '/jump?url=';
 
           // 判断是Google的流量还是bing的流量
@@ -302,16 +304,15 @@ export default {
           if (typeof gclid != 'undefined') {
 
             if (key == 'nordvpn') {
-              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=g`
+              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
             } else if (key == 'surfshark') {
-              return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?campaignid=g&keyword=${aff_sub}&targetid=${aff_sub2}&gclid=${gclid}`
+              return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
             }
-            
 
           } else if (typeof msclkid != 'undefined') {
 
             if (key == 'surfshark' || key == 'nordvpn') {
-              return `${basePath}${url}?msclkid=${msclkid}&keyword=${aff_sub}&TargetId=${aff_sub2}&CampaignId=b`
+              return `${basePath}${url}?msclkid=${msclkid}&keyword=${keyword}&TargetId=${targetId}&campaignid=${campaignid}`
             }
 
           }

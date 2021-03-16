@@ -50,8 +50,8 @@
     <main>
       <Nuxt />
       <!-- <Message :url="mainLink" /> -->
-      <Nord2 :url="mainLink"/>
-      <!-- <Message2 :url="mainLink" /> -->
+      <!-- <Nord2 :url="mainLink"/> -->
+      <Message2 :url="mainLink" />
     </main>
     
 
@@ -109,9 +109,10 @@
   </div>
 </template>
 <script>
-import Nord2 from '~/components/nord2.vue'
+// import Nord2 from '~/components/nord2.vue'
+import Message2 from '~/components/message2.vue'
   export default {
-  components: { Nord2},
+  components: { Message2 },
     data() {
       return {
         mainLink: '',

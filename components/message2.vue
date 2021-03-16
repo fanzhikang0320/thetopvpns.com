@@ -6,20 +6,20 @@
             <div class="content-box left-box">
                 <img src="@/assets/image/surfshark-logo-msg.png" alt="Surfshark" class="logo">
                 <img src="@/assets/image/surfshark-pic-msg.png" alt="Surfshark" class="pic">
-                <img src="" alt="Surfshark" class="desc">
-                <a href="http://" target="_blank" rel="noopener noreferre nofollow" class="btn">Save Now</a>
+                <img src="@/assets/image/surfshark-msg-text.png" alt="Surfshark" class="desc">
+                <a href="https://get.surfshark.net/aff_c?offer_id=15&aff_id=3436&source=popup " target="_blank" rel="noopener noreferre nofollow" class="btn">Save Now</a>
                 <div class="circle-box">
-                    <span><span class="big">80</span><span class="small">%</span></span>
+                    <span><span class="big s">81</span><span class="small">%</span></span>
                     <span class="big">OFF</span>
                 </div>
             </div>
             <div class="content-box right-box">
-                <img src="@/assets/image/surfshark-logo-msg.png" alt="NordVPN" class="logo">
+                <img src="@/assets/image/nord-logo-msg.png" alt="NordVPN" class="logo">
                 <img src="@/assets/image/nord-pic-msg.png" alt="NordVPN" class="pic">
-                <img src="" alt="NordVPN" class="desc">
-                <a href="http://" target="_blank" rel="noopener noreferre nofollow" class="btn">Save Now</a>
+                <img src="@/assets/image/nord-msg-text.png" alt="NordVPN" class="desc">
+                <a href="https://go.nordvpn.net/aff_c?offer_id=328&aff_id=48575&source=popup" target="_blank" rel="noopener noreferre nofollow" class="btn">Save Now</a>
                 <div class="circle-box">
-                    <span><span class="big">80</span><span class="small">%</span></span>
+                    <span><span class="big s">68</span><span class="small">%</span></span>
                     <span class="big">OFF</span>
                 </div>
             </div>
@@ -158,13 +158,34 @@ export default {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
                 &.left-box {
                     background-color: #eeeeee;
+                    .pic {
+                        height: 180px;
+                        margin: 31px 0 20px 0;
+                    }
+                    .desc {
+                        height: 50px;
+                        margin-top: 12px;
+                    }
                 }
                 &.right-box {
                     background-color: #1b1e7d;
+                    .pic {
+                        height: 186px;
+                        margin: 31px 0 10px 0;
+                    }
+                    .desc {
+                        height: 70px;
+                    }
+                    .btn {
+                        margin-top: 13px;
+                    }
                 }
-
+                .logo {
+                    height: 60px;
+                }
                 .circle-box {
                     position: absolute;
                     top: 50%;
@@ -185,18 +206,19 @@ export default {
                         line-height: 35px;
                     }
                     .big {
-                        font-size: 45px;
+                        font-size: 38px;
                         font-family: 'Montserrat-bold';
 
+                        &.s {
+                            font-size: 54px;
+                        }
                     }
                     .small {
                         font-size: 15px;
                     }
                 }
 
-                .pic {
-                    margin: 31px 0 41px 0;
-                }
+                
                 .btn {
                     display: block;
                     width: 220px;
