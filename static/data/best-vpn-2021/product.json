@@ -1,84 +1,88 @@
 {
     "data":[
+        
+        
         {
-            "name": "NordVPN",
-            "key": "nordvpn",
-            "keyname": "Nord-VPN-Reseña",
-            "link": "https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b",
-            "logoSrc": "/data/img/NordVPN.png",
-            "picture":"/data/img/NordVPN-p.png",
-            "horizontalLogoSrc":"/data/img/NORD-h.png",
-            "reviews": 3852,
-            "price": "3.71",
+            "name": "Surfshark",
+            "key": "surfshark",
+            "keyname": "Surfshark-Review",
+            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
+            "logoSrc": "/data/img/Surfshark.png",
+            "picture":"/data/img/Surfshark-p.png",
+            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
+            "reviews": 3886,
+            "price": 2.49,
             "rate": {
                 "score": "9.8",
                 "max": 10
             },
             "saveNum": 77,
-            "speaker": "68% de descuento hoy",
-            "slogan": "NordVPN: VPN de primera clase, extremadamente segura",
-            "feature": "Disfruta de velocidades increíbles y acceso sin restricciones en todo el mundo. Prueba NordVPN durante 30 días.",
+            "speaker": "",
+            "slogan": "Surfshark: Provides Trusted Protection For Unlimited Devices",
+            "feature": "Unlimited devices & anonymous P2P/torrenting",
             "meritList": [
                 {
-                    "text": "Servicio VPN rápido con funciones de privacidad avanzadas "
+                    "text": "Unlimited devices connections"
                 },
                 {
-                    "text": "Más de 5.400 servidores en 59 países"
+                    "text": "Cheapest price on 2-year plan"
+                },
+                
+                {
+                    "text": "Unlimited & anonymous P2P/torrenting"
                 },
                 {
-                    "text": "Transmisión ininterrumpida y uso compartido P2P"
+                    "text": "No user logs & no IP address leaks"
                 },
                 {
-                    "text": "Gran nivel de seguridad militar"
+                    "text": "User-friendly apps for all major platforms"
                 },
                 {
-                    "text": "Ancho de banda ilimitado y de alta velocidad"
-                },
-                {
-                    "text": "Hasta 6 dispositivos simultáneamente"
+                    "text": "24/7 customer support"
                 }
+                
             ],
-            "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
-        
         {
-            "name": "Surfshark",
-            "key": "surfshark",
-            "keyname": "Surfshark-Reseña",
-            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
-            "logoSrc": "/data/img/Surfshark.png",
-            "picture":"/data/img/Surfshark-p.png",
-            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
-            "reviews": 3686,
-            "price": 2.49,
+            "name": "NordVPN",
+            "key": "nordvpn",
+            "keyname": "Nord-VPN-Review",
+            "link": "https://hotsale.featuredproduct.news/3c9c090d-ac40-4851-b928-b3ab4c99c47b",
+            "logoSrc": "/data/img/NordVPN.png",
+            "picture":"/data/img/NordVPN-p.png",
+            "horizontalLogoSrc":"/data/img/NORD-h.png",
+            "reviews": 3652,
+            "price": "3.71",
             "rate": {
                 "score": "9.5",
                 "max": 10
             },
             "saveNum": 77,
-            "speaker": "",
-            "slogan": "Surfshark: Proporciona protección de confianza para un número ilimitado de dispositivos",
-            "feature": "Dispositivos ilimitados y P2P/torrenting anónimo",
+            "speaker": "68% off today",
+            "slogan": "NordVPN: Top Notch All-Around VPN, Extremely Secure",
+            "feature": "Enjoy blazing fast speeds and unrestricted access worldwide. Try NordVPN for 30 days.",
             "meritList": [
                 {
-                    "text": "Conexiones ilimitadas de dispositivos"
+                    "text": "Fast VPN service with advanced privacy features "
                 },
                 {
-                    "text": "El precio más barato en un plan de 2 años"
-                },
-                
-                {
-                    "text": "P2P/torrenting ilimitado y anónimo"
+                    "text": "5,400+ servers in 59 countries"
                 },
                 {
-                    "text": "No hay registros de usuarios ni fugas de direcciones IP"
+                    "text": "Uninterrupted streaming and P2P sharing"
                 },
                 {
-                    "text": "Aplicaciones fáciles de usar para las principales plataformas"
+                    "text": "Military great security level"
+                },
+                {
+                    "text": "High-speed, unlimited bandwidth"
+                },
+                {
+                    "text": "Up to 6 devices simultaneously"
                 }
-                
             ],
-            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
             "name": "BullGuard",
@@ -87,7 +91,7 @@
             "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
             "logoSrc": "/data/img/bullguard.png",
             "picture":"/data/img/bullguard-p.png",
-            "horizontalLogoSrc":"",
+            "horizontalLogoSrc":"/data/img/bullguard-h.png",
             "reviews": 3560,
             "price": 0,
             "rate": {
@@ -96,23 +100,23 @@
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "BullGuard VPN: Usar el mejor nivel de encriptación disponible actualmente",
-            "feature": "Use cifrado militar para proteger su privacidad.",
+            "slogan": "BullGuard VPN: Use Best Level of Encryption Currently Available",
+            "feature": "Secure your privacy with military-grade encryption.",
             "meritList": [
                 {
-                    "text": "Cifrado militar"
+                    "text": "Military-grade encryption"
                 },
                 {
-                    "text": "Fácil de usar"
+                    "text": "Simple and easy to use"
                 },
                 {
-                    "text": "Desbloquear casi todos los servicios de streaming"
+                    "text": "Unblock almost any streaming service"
                 },
                 {
-                    "text": "No hay políticas de registro o seguimiento"
+                    "text": "No logging or tracking policy"
                 },
                 {
-                    "text": "Hasta 6 dispositivos sincrónicos"
+                    "text": "Up to 6 simultaneous devices"
                 }
             ],
             "system": ["android","ios","mac","windows"]
@@ -120,7 +124,7 @@
         {
             "name": "ExpressVPN",
             "key": "expressVPN",
-            "keyname": "Express-VPN-Reseña",
+            "keyname": "Express-VPN-Review",
             "link": "https://www.xvbelink.com/?a_fid=5176798",
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
@@ -133,26 +137,24 @@
             },
             "speaker": "",
             "saveNum": 77,
-            "slogan": "ExpressVPN: la tecnología VPN más avanzada para un streaming ultrarrápido",
-            "feature": "Una de las VPN más populares del mercado, proporciona un fácil acceso a contenidos restringidos.",
+            "slogan": "ExpressVPN: Most Advanced VPN Technology for Ultra-fast Streaming",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
+                
                 {
-                    "text": "Uno de los servicios VPN más rápidos del mercado"
+                    "text": "Connect securely to 90+ countries with 3000+ servers"
                 },
                 {
-                    "text": "Conéctese de forma segura a más de 90 países con más de 3000 servidores"
+                    "text": "Unblock Netflix, BBC iPlayer, Disney+& more"
                 },
                 {
-                    "text": "Desbloquear Netflix, BBC iPlayer, Disney+ & más"
+                    "text": "100% zero-logs policy"
                 },
                 {
-                    "text": "Política de cero registros"
-                },
-                {
-                    "text": "Más de 3000 servidores en 90 países"
+                    "text": "3000+servers in 90 countries"
                 }
             ],
-            "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
             "name": "PIA",
@@ -170,30 +172,31 @@
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "PIA: El servicio VPN líder en el mundo",
-            "feature": "Una VPN económica con impresionantes capacidades de streaming",
+            "slogan": "PIA: World's Leading VPN Service",
+            "feature": "A budget VPN with impressive streaming capabilities",
             "meritList": [
-                
                 {
-                    "text": "Más de 3000 servidores en 48 países"
+                    "text": "One of the fastest VPN service in the market"
                 },
                 {
-                    "text": "Ancho de banda sin límite, soporte para P2P"
+                    "text": "3000+ servers in 48 countries"
                 },
                 {
-                    "text": "Hasta 10 dispositivos de conexión simultánea"
+                    "text": "Uncapped bandwidth, support for P2P"
                 },
                 {
-                    "text": "Bloquea los anuncios, los rastreadores y el malware"
+                    "text": "Up to 10 devices simultaneous connections"
+                },
+                {
+                    "text": "Block ads, trackers and malware"
                 }
                 
             ],
             "system": ["android","ios","mac","router","linux","windows"]
         },
-        
         {
             "name": "CyberGhost",
-            "keyname": "CyberGhost-Reseña",
+            "keyname": "CyberGhost-Review",
             "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
@@ -206,25 +209,24 @@
             },
             "saveNum": 79,
             "speaker": "",
-            "slogan": "CyberGhost: Proveedor de VPN de rápido crecimiento",
+            "slogan": "CyberGhost: Fast Growing VPN Provider",
             "feature": "",
             "meritList": [
                 {
-                    "text": "Conéctese de forma segura a más de 90 países"
+                    "text": "Connect securely to 90+ countries"
                 },
                 {
-                    "text": "Desbloquea Netflix, BBC iPlayer, Disney+ y más"
+                    "text": "Unlocks Netflix, BBC iPlayer, Disney+ & more"
                 },
                 {
-                    "text": "No hay registros de usuarios ni fugas de direcciones IP"
+                    "text": "No user logs & no IP address leaks"
                 },
                 {
-                    "text": "Asistencia por chat en directo 24 horas al día, 7 días a la semana"
+                    "text": "24/7 live chat support"
                 }
             ],
-            "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
-        
         {
             "name": "AtlasVPN",
             "key": "atlasvpn",
@@ -241,25 +243,28 @@
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "AtlasVPN: Soluciones de bajo costo para satisfacer sus necesidades diarias",
+            "slogan": "AtlasVPN: A Low-Cost Solution For Your Daily Needs",
             "feature": "Stream fast on a secure netword. Includes bonus features such as malware protection. Enjoy amazing features at a great price!",
             "meritList": [
                 {
-                    "text": "El precio más barato de un paquete de tres a ños"
+                    "text": "Cheapest price on 3-year package"
                 },
                 {
-                    "text": "No hay registro de actividad y cifrado completo de navegación"
+                    "text": "No activity logging and total browsing encryption"
                 },
                 {
-                    "text": "Dispositivo ilimitado protegido"
+                    "text": "Unlimited devices protected"
                 },
                 {
-                    "text": "Malware y protección de phishing"
+                    "text": "Malware and phishing protection"
                 }
                 
             ],
             "system": ["android","ios","mac","windows"]
         },
+        
+        
+        
         {
             "name": "PrivateVPN",
             "key": "privatevpn",
@@ -276,25 +281,24 @@
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "PrivateVPN: VPN económica con impresionantes capacidades de streaming",
+            "slogan": "PrivateVPN: Budget VPN With Impressive Streaming Capabilities",
             "feature": "",
             "meritList": [
                 {
-                    "text": "Conéctate de forma segura a más de 60 países"
+                    "text": "Connect securely to 60+ countries"
                 },
                 {
-                    "text": "P2P/torrenting ilimitado y privado"
+                    "text": "Unlimited & private P2P/torrenting"
                 },
                 {
-                    "text": "Trabajar con Netflix y más"
+                    "text": "Work with Netflix & more"
                 },
                 {
-                    "text": "precio asequible"
+                    "text": "affordable price"
                 }
             ],
             "system": ["android","ios","mac","linux","windows"]
         },
-        
         
         {
             "name": "Norton",
@@ -312,25 +316,29 @@
             },
             "saveNum": 79,
             "speaker": "",
-            "slogan": "Norton: Uno de los nombres más destacados en seguridad informática",
-            "feature": "Una de las VPN más populares del mercado, proporciona un fácil acceso a contenidos restringidos.",
+            "slogan": "Norton: One Of The Most Prominent Names In Computer Security",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
                 {
-                    "text": "Ofrece seguridad en el navegador y otras aplicaciones móviles "
+                    "text": "Offers security in browser and other mobile apps "
                 },
                 {
-                    "text": "1.500 servidores repartidos en 29 países"
+                    "text": "1,500 servers spread across 29 countries"
                 },
                 {
-                    "text": "Precios flexibles y competitivos"
+                    "text": "Flexible, competitive pricing"
                 },
                 {
-                    "text": "Bloqueo de rastreadores de anuncios incorporado"
+                    "text": "Built-in ad tracker blocking"
                 }
                 
             ],
             "system": ["android","ios","mac","windows","linux"]
         },
+        
+        
+        
+        
         
         {
             "name": "Ivacy",
@@ -348,23 +356,23 @@
             },
             "saveNum": 77,
             "speaker": "",
-            "slogan": "Ivacy VPN: Siempre te mantiene anónimo",
+            "slogan": "Ivacy VPN: Always Keep You Anonymous",
             "feature": "",
             "meritList": [
                 {
-                    "text": "Planes a largo plazo muy baratos"
+                    "text": "Very cheap long-term plans"
                 },
                 {
-                    "text": "Más de 2000 servidores en más de 100 lugares"
+                    "text": "2000+ servers in over 100 locations"
                 },
                 {
-                    "text": "Desbloquea Netflix y iPlayer"
+                    "text": "Unblocks Netflix, iPlayer"
                 },
                 {
-                    "text": "Inicio de sesión simultáneo de 10 dispositivos"
+                    "text": "10 devices simultaneous login"
                 }
             ],
-            "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv"]
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv"]
         }
         
     ]

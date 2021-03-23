@@ -1,5 +1,48 @@
 {
     "data":[
+        
+        {
+            "name": "Surfshark",
+            "key": "surfshark",
+            "keyname": "Surfshark-Recensione",
+            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
+            "logoSrc": "/data/img/Surfshark.png",
+            "picture":"/data/img/Surfshark-p.png",
+            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
+            "reviews": 3886,
+            "price": 2.49,
+            "rate": {
+                "score": "9.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Surfshark: fornisce una protezione affidabile per dispositivi illimitati",
+            "feature": "Dispositivi illimitati e P2P / torrenting anonimo",
+            "meritList": [
+                {
+                    "text": "Connessioni dispositivi illimitate"
+                 },
+                 {
+                     "text": "Prezzo più basso per il piano biennale"
+                 },
+                
+                 {
+                     "text": "P2P / torrenting illimitato e anonimo"
+                 },
+                 {
+                     "text": "Nessun registro utente e nessuna perdita di indirizzi IP"
+                 },
+                 {
+                     "text": "App di facile utilizzo per tutte le principali piattaforme"
+                },
+                {
+                    "text": "Assistenza clienti 24/7"
+                }
+                
+            ],
+            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
+        },
         {
             "name": "NordVPN",
             "key": "nordvpn",
@@ -8,10 +51,10 @@
             "logoSrc": "/data/img/NordVPN.png",
             "picture":"/data/img/NordVPN-p.png",
             "horizontalLogoSrc":"/data/img/NORD-h.png",
-            "reviews": 3852,
+            "reviews": 3652,
             "price": "3.71",
             "rate": {
-                "score": "9.8",
+                "score": "9.5",
                 "max": 10
             },
             "saveNum": 77,
@@ -40,46 +83,6 @@
                 }
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
-        },
-        
-        {
-            "name": "Surfshark",
-            "key": "surfshark",
-            "keyname": "Surfshark-Recensione",
-            "link": "https://hotsale.featuredproduct.news/546b3f0b-e334-46c0-8a7e-0b7e3af1a16c",
-            "logoSrc": "/data/img/Surfshark.png",
-            "picture":"/data/img/Surfshark-p.png",
-            "horizontalLogoSrc":"/data/img/Surfshark-h.png",
-            "reviews": 3686,
-            "price": 2.49,
-            "rate": {
-                "score": "9.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "Surfshark: fornisce una protezione affidabile per dispositivi illimitati",
-            "feature": "Dispositivi illimitati e P2P / torrenting anonimo",
-            "meritList": [
-                {
-                    "text": "Connessioni dispositivi illimitate"
-                 },
-                 {
-                     "text": "Prezzo più basso per il piano biennale"
-                 },
-                
-                 {
-                     "text": "P2P / torrenting illimitato e anonimo"
-                 },
-                 {
-                     "text": "Nessun registro utente e nessuna perdita di indirizzi IP"
-                 },
-                 {
-                     "text": "App di facile utilizzo per tutte le principali piattaforme"
-                }
-                
-            ],
-            "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
             "name": "BullGuard",

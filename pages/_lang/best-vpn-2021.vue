@@ -290,7 +290,7 @@ export default {
       const changeLink = (url,key) => {
           let keyword = route.query['utm_term'],
             
-              targetId = route.query['TargetId'],
+              targetId = route.query['TagetId'],
               aff_sub3 = route.query['loc'],
               msclkid = route.query['msclkid'],
               gclid = route.query['gclid'],
@@ -329,11 +329,11 @@ export default {
 
       // 根据当前语种加载对应的数据
       if (language == 'fr' || language == 'es' || language == 'de' || language == 'it') {
-        res = await app.$axios.get(`/data/lang_${language}/product_${language}.json`);
-        result = await app.$axios.get(`/data/lang_${language}/question_${language}.json`);
+        res = await app.$axios.get(`/data/best-vpn-2021/lang_${language}/product_${language}.json`);
+        result = await app.$axios.get(`/data/best-vpn-2021/lang_${language}/question_${language}.json`);
       } else {
-        res = await app.$axios.get('/data/product.json');
-        result = await app.$axios.get('/data/question.json');
+        res = await app.$axios.get('/data/best-vpn-2021/product.json');
+        result = await app.$axios.get('/data/best-vpn-2021/question.json');
       }
       
 
