@@ -81,41 +81,42 @@
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
-            "name": "BullGuard",
-            "key": "bullguardVPN",
+            "name": "Norton",
+            "key": "norton",
             "keyname": "",
-            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
-            "logoSrc": "/data/img/bullguard.png",
-            "picture":"/data/img/bullguard-p.png",
-            "horizontalLogoSrc":"",
-            "reviews": 3560,
-            "price": 0,
+            "link": "https://www.jdoqocy.com/click-100176895-13593334",
+            "logoSrc": "/data/img/Norton.png",
+            "horizontalLogoSrc": "/data/img/Norton-h.png",
+            "picture":"/data/img/Norton-p.png",
+            "reviews": 3524,
+            "price": 2.75,
             "rate": {
                 "score": "9.1",
                 "max": 10
             },
-            "saveNum": 77,
+            "saveNum": 79,
             "speaker": "",
-            "slogan": "BullGuard VPN: Usar el mejor nivel de encriptación disponible actualmente",
-            "feature": "Use cifrado militar para proteger su privacidad.",
+            "slogan": "Norton: Uno de los nombres más destacados en seguridad informática",
+            "feature": "Una de las VPN más populares del mercado, proporciona un fácil acceso a contenidos restringidos.",
             "meritList": [
                 {
-                    "text": "Cifrado militar"
+                    "text": "Ofrece seguridad en el navegador y otras aplicaciones móviles "
+                },
+                {
+                    "text": "1.500 servidores repartidos en 29 países"
+                },
+                {
+                    "text": "Precios flexibles y competitivos"
+                },
+                {
+                    "text": "Bloqueo de rastreadores de anuncios incorporado"
                 },
                 {
                     "text": "Fácil de usar"
-                },
-                {
-                    "text": "Desbloquear casi todos los servicios de streaming"
-                },
-                {
-                    "text": "No hay políticas de registro o seguimiento"
-                },
-                {
-                    "text": "Hasta 6 dispositivos sincrónicos"
                 }
+                
             ],
-            "system": ["android","ios","mac","windows"]
+            "system": ["android","ios","mac","windows","linux"]
         },
         {
             "name": "ExpressVPN",
@@ -155,6 +156,42 @@
             "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv","chrome","firefox"]
         },
         {
+            "name": "BullGuard",
+            "key": "bullguardVPN",
+            "keyname": "",
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img/bullguard-p.png",
+            "horizontalLogoSrc":"",
+            "reviews": 3360,
+            "price": 0,
+            "rate": {
+                "score": "8.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "BullGuard VPN: Usar el mejor nivel de encriptación disponible actualmente",
+            "feature": "Use cifrado militar para proteger su privacidad.",
+            "meritList": [
+                {
+                    "text": "Cifrado militar"
+                },
+                
+                {
+                    "text": "Desbloquear casi todos los servicios de streaming"
+                },
+                {
+                    "text": "No hay políticas de registro o seguimiento"
+                },
+                {
+                    "text": "Hasta 6 dispositivos sincrónicos"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        
+        {
             "name": "PIA",
             "key": "pia",
             "keyname": "",
@@ -162,10 +199,10 @@
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3321,
+            "reviews": 3221,
             "price": 2.85,
             "rate": {
-                "score": "8.5",
+                "score": "8.3",
                 "max": 10
             },
             "saveNum": 77,
@@ -198,10 +235,10 @@
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
             "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3224,
+            "reviews": 3024,
             "price": 2.75,
             "rate": {
-                "score": "8.3",
+                "score": "8.0",
                 "max": 10
             },
             "saveNum": 79,
@@ -233,10 +270,10 @@
             "logoSrc": "/data/img/atlasvpn.png",
             "picture":"",
             "horizontalLogoSrc":"",
-            "reviews": 3064,
+            "reviews": 2864,
             "price": 2.99,
             "rate": {
-                "score": "8.0",
+                "score": "7.8",
                 "max": 10
             },
             "saveNum": 77,
@@ -268,10 +305,10 @@
             "logoSrc": "/data/img/private.png",
             "picture":"/data/img",
             "horizontalLogoSrc":"",
-            "reviews": 2846,
+            "reviews": 2546,
             "price": 0,
             "rate": {
-                "score": "7.8",
+                "score": "7.5",
                 "max": 10
             },
             "saveNum": 77,
@@ -296,41 +333,7 @@
         },
         
         
-        {
-            "name": "Norton",
-            "key": "norton",
-            "keyname": "",
-            "link": "https://www.jdoqocy.com/click-100176895-13593334",
-            "logoSrc": "/data/img/Norton.png",
-            "horizontalLogoSrc": "/data/img/Norton-h.png",
-            "picture":"/data/img/Norton-p.png",
-            "reviews": 2524,
-            "price": 2.75,
-            "rate": {
-                "score": "7.5",
-                "max": 10
-            },
-            "saveNum": 79,
-            "speaker": "",
-            "slogan": "Norton: Uno de los nombres más destacados en seguridad informática",
-            "feature": "Una de las VPN más populares del mercado, proporciona un fácil acceso a contenidos restringidos.",
-            "meritList": [
-                {
-                    "text": "Ofrece seguridad en el navegador y otras aplicaciones móviles "
-                },
-                {
-                    "text": "1.500 servidores repartidos en 29 países"
-                },
-                {
-                    "text": "Precios flexibles y competitivos"
-                },
-                {
-                    "text": "Bloqueo de rastreadores de anuncios incorporado"
-                }
-                
-            ],
-            "system": ["android","ios","mac","windows","linux"]
-        },
+        
         
         {
             "name": "Ivacy",

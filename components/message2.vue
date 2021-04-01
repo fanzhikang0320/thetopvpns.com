@@ -174,7 +174,7 @@ export default {
                     background-color: #1b1e7d;
                     .pic {
                         height: 186px;
-                        margin: 31px 0 10px 0;
+                        margin: 40px 0 10px 0;
                     }
                     .desc {
                         height: 70px;
