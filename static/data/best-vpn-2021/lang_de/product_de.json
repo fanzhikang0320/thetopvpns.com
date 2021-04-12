@@ -159,41 +159,7 @@
             ],
             "system": ["android","ios","mac","windows","linux"]
         },
-        {
-            "name": "TotalVPN",
-            "key": "TotalVPN",
-            "keyname": "",
-            "link": "https://url.totalav.com/6064753885550/click",
-            "logoSrc": "/data/img/totalvpn.png",
-            "picture":"/data/img/totalvpn-p.png",
-            "horizontalLogoSrc":"/data/img/totalvpn-h.png",
-            "reviews": 3360,
-            "price": 0,
-            "rate": {
-                "score": "8.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "Total VPN: Prestación de servicios antivirus y VPN",
-            "feature": "Prestación de servicios antivirus y VPN",
-            "meritList": [
-                
-                {
-                    "text": "Cifrar su navegación por Internet"
-                },
-                {
-                    "text": "Mantener la seguridad en el Wi - Fi público"
-                },
-                {
-                    "text": "Acceso a sitios y contenidos geográficamente restringidos"
-                },
-                {
-                    "text": "Protección de múltiples dispositivos, como norma"
-                }
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
+        
         {
             "name": "ExpressVPN",
             "key": "expressVPN",
@@ -202,10 +168,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3221,
+            "reviews": 3321,
             "price": 6.67,
             "rate": {
-                "score": "8.3",
+                "score": "8.5",
                 "max": 10
             },
             "speaker": "",
@@ -241,10 +207,10 @@
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3021,
+            "reviews": 3221,
             "price": 2.85,
             "rate": {
-                "score": "8.0",
+                "score": "8.3",
                 "max": 10
             },
             "saveNum": 77,
@@ -276,10 +242,10 @@
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
             "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 2824,
+            "reviews": 3024,
             "price": 2.75,
             "rate": {
-                "score": "7.8",
+                "score": "8.0",
                 "max": 10
             },
             "saveNum": 79,
@@ -310,10 +276,10 @@
             "logoSrc": "/data/img/bullguard.png",
             "picture":"/data/img/bullguard-p.png",
             "horizontalLogoSrc":"",
-            "reviews": 2560,
+            "reviews": 2860,
             "price": 0,
             "rate": {
-                "score": "7.5",
+                "score": "7.8",
                 "max": 10
             },
             "saveNum": 77,
@@ -345,10 +311,10 @@
             "logoSrc": "/data/img/atlasvpn.png",
             "picture":"",
             "horizontalLogoSrc":"",
-            "reviews": 1864,
+            "reviews": 2564,
             "price": 2.99,
             "rate": {
-                "score": "7.3",
+                "score": "7.5",
                 "max": 10
             },
             "saveNum": 77,
@@ -369,6 +335,41 @@
                     "text": "Malware- und Phishing-Schutz"
                 }
                 
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
+            "name": "TotalVPN",
+            "key": "TotalVPN",
+            "keyname": "",
+            "link": "https://url.totalav.com/6064753885550/click",
+            "logoSrc": "/data/img/totalvpn.png",
+            "picture":"/data/img/totalvpn-p.png",
+            "horizontalLogoSrc":"/data/img/totalvpn-h.png",
+            "reviews": 1860,
+            "price": 0,
+            "rate": {
+                "score": "7.3",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Total VPN: Prestación de servicios antivirus y VPN",
+            "feature": "Prestación de servicios antivirus y VPN",
+            "meritList": [
+                
+                {
+                    "text": "Cifrar su navegación por Internet"
+                },
+                {
+                    "text": "Mantener la seguridad en el Wi - Fi público"
+                },
+                {
+                    "text": "Acceso a sitios y contenidos geográficamente restringidos"
+                },
+                {
+                    "text": "Protección de múltiples dispositivos, como norma"
+                }
             ],
             "system": ["android","ios","mac","windows"]
         }

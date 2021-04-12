@@ -311,7 +311,8 @@ export default {
               // return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
               return `${basePath}https://go.nordvpn.net/aff_c?offer_id=328&aff_id=48575&source=google`
             } else if (key == 'surfshark') {
-              return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
+              // return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
+              return `${basePath}https://get.surfshark.net/aff_c?offer_id=15&aff_id=3436&source=google`
             }
 
           } else if (typeof msclkid != 'undefined') {
