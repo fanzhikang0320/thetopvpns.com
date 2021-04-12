@@ -23,7 +23,8 @@
         "corner": {
             "first": "Les plus populaires",
             "second": "VPN le moins cher",
-            "third": "Le plus sûr"
+            "third": "Le plus sûr",
+            "new_third": "VPN le plus rapide"
         },
         "updated": "Dernière mise à jour",
         "visit": "Consultez",

@@ -84,7 +84,7 @@
             
             <span class="most" v-if="index == 0">{{$t('product.corner.first')}}</span>
             <span class="most" v-if="index == 1">{{$t('product.corner.second')}}</span>
-            <span class="most" v-if="index == 2">{{$t('product.corner.third')}}</span>
+            <span class="most" v-if="index == 2">{{$t('product.corner.new_third')}}</span>
 
           </div>
           <div class="corner_box" v-else>
@@ -258,7 +258,7 @@
             </div>
             
             <div class="picker_item_top">
-                <img v-lazy="item.horizontalLogoSrc" :alt="item.name" class="logo">
+                <img v-lazy="item.horizontalLogoSrc" :alt="item.name" :class="{ 'private': item.name == 'PrivateVPN', 'logo': true }">
                 <div class="rate_wrapper">
                   <div class="rate_box">
                     <span class="rate">{{item.rate.score}}</span>
@@ -290,7 +290,7 @@ export default {
       const changeLink = (url,key) => {
           let keyword = route.query['utm_term'],
             
-              targetId = route.query['TargetId'],
+              targetId = route.query['TagetID'],
               aff_sub3 = route.query['loc'],
               msclkid = route.query['msclkid'],
               gclid = route.query['gclid'],
@@ -306,15 +306,16 @@ export default {
           // 判断是Google的流量还是bing的流量
 
           if (typeof gclid != 'undefined') {
-
+            //Google 流量
             if (key == 'nordvpn') {
-              return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
+              // return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
+              return `${basePath}https://go.nordvpn.net/aff_c?offer_id=328&aff_id=48575&source=google`
             } else if (key == 'surfshark') {
               return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
             }
 
           } else if (typeof msclkid != 'undefined') {
-
+            // bing流量
             if (key == 'surfshark' || key == 'nordvpn') {
               return `${basePath}${url}?msclkid=${msclkid}&keyword=${keyword}&TargetId=${targetId}&CampaignId=${campaignid}`
             }

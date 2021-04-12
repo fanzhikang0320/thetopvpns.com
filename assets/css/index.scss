@@ -1002,6 +1002,10 @@
                         height: 38px;
                         margin-top: 20px;
                         flex-shrink: 0;
+
+                        &.private {
+                            height: 26px;
+                        }
                     }
                     .rate_wrapper {
                         display: flex;

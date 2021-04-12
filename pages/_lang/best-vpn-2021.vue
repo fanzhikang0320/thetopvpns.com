@@ -258,7 +258,7 @@
             </div>
             
             <div class="picker_item_top">
-                <img v-lazy="item.horizontalLogoSrc" :alt="item.name" class="logo">
+                <img v-lazy="item.horizontalLogoSrc" :alt="item.name" :class="{ 'private': item.name == 'PrivateVPN', 'logo': true }">
                 <div class="rate_wrapper">
                   <div class="rate_box">
                     <span class="rate">{{item.rate.score}}</span>

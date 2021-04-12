@@ -85,6 +85,43 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
+            "name": "PrivateVPN",
+            "key": "privatevpn",
+            "keyname": "",
+            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44&a_bid=548b0ca6",
+            "logoSrc": "/data/img/private.png",
+            "picture":"/data/img/private-vpn-p.png",
+            "horizontalLogoSrc":"/data/img/private-vpn-h.png",
+            "reviews": 3546,
+            "price": 0,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "PrivateVPN: VPN economica con straordinarie capacità di streaming",
+            "feature": "VPN economica con straordinarie capacità di streaming",
+            "meritList": [
+                {
+                    "text": "Nessun buffering o lunghe attese durante la navigazione"
+                },
+                {
+                    "text": "Connettiti in modo sicuro a oltre 60 paesi"
+                 },
+                 {
+                     "text": "P2P / torrenting illimitato e privato"
+                 },
+                 {
+                     "text": "Funziona con Netflix e altri servizi"
+                 },
+                 {
+                     "text": "Prezzo accessibile"
+                }
+            ],
+            "system": ["android","ios","mac","linux","windows"]
+        },
+        {
             "name": "Norton",
             "key": "norton",
             "keyname": "",
@@ -92,10 +129,10 @@
             "logoSrc": "/data/img/Norton.png",
             "horizontalLogoSrc": "/data/img/Norton-h.png",
             "picture":"/data/img/Norton-p.png",
-            "reviews": 3524,
+            "reviews": 3424,
             "price": 2.75,
             "rate": {
-                "score": "9.1",
+                "score": "8.8",
                 "max": 10
             },
             "saveNum": 79,
@@ -123,6 +160,41 @@
             "system": ["android","ios","mac","windows","linux"]
         },
         {
+            "name": "TotalVPN",
+            "key": "TotalVPN",
+            "keyname": "",
+            "link": "https://url.totalav.com/6064753885550/click",
+            "logoSrc": "/data/img/totalvpn.png",
+            "picture":"/data/img/totalvpn-p.png",
+            "horizontalLogoSrc":"/data/img/totalvpn-h.png",
+            "reviews": 3360,
+            "price": 0,
+            "rate": {
+                "score": "8.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Total VPN: Fornisce contemporaneamente servizi Antivirus e VPN",
+            "feature": "Fornisce contemporaneamente servizi Antivirus e VPN",
+            "meritList": [
+                
+                {
+                    "text": "Cifra la navigazione internet"
+                },
+                {
+                    "text": "Mantenere la sicurezza sul Wi-Fi pubblico"
+                },
+                {
+                    "text": "Accesso a siti web e contenuti geo-limitati"
+                },
+                {
+                    "text": "Protezione multi-dispositivo, come standard"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
             "name": "ExpressVPN",
             "key": "expressVPN",
             "keyname": "Express-VPN-Recensione",
@@ -130,10 +202,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3421,
+            "reviews": 3221,
             "price": 6.67,
             "rate": {
-                "score": "8.8",
+                "score": "8.3",
                 "max": 10
             },
             "speaker": "",
@@ -159,41 +231,6 @@
             ],
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
-        {
-            "name": "BullGuard",
-            "key": "bullguardVPN",
-            "keyname": "",
-            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
-            "logoSrc": "/data/img/bullguard.png",
-            "picture":"/data/img/bullguard-p.png",
-            "horizontalLogoSrc":"",
-            "reviews": 3360,
-            "price": 0,
-            "rate": {
-                "score": "8.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "BullGuard VPN: Usa il miglior livello di cifratura attualmente disponibile",
-            "feature": "Proteggi la tua privacy con cifratura militare.",
-            "meritList": [
-                {
-                    "text": "Cifratura militare"
-                },
-                
-                {
-                    "text": "Eliminare quasi ogni servizio di streaming"
-                },
-                {
-                    "text": "Nessuna politica di registrazione o di tracciamento"
-                },
-                {
-                    "text": "Dispositivi simultanei fino a 6"
-                }
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
         
         {
             "name": "PIA",
@@ -203,10 +240,10 @@
             "logoSrc": "/data/img/pravateinternetaccess.png",
             "picture":"/data/img/PIA-p.png",
             "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3221,
+            "reviews": 3021,
             "price": 2.85,
             "rate": {
-                "score": "8.3",
+                "score": "8.0",
                 "max": 10
             },
             "saveNum": 77,
@@ -238,10 +275,10 @@
             "logoSrc": "/data/img/CyberGhost.png",
             "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
             "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3024,
+            "reviews": 2824,
             "price": 2.75,
             "rate": {
-                "score": "8.0",
+                "score": "7.8",
                 "max": 10
             },
             "saveNum": 79,
@@ -265,6 +302,41 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
+            "name": "BullGuard",
+            "key": "bullguardVPN",
+            "keyname": "",
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img/bullguard-p.png",
+            "horizontalLogoSrc":"",
+            "reviews": 2560,
+            "price": 0,
+            "rate": {
+                "score": "7.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "BullGuard VPN: Usa il miglior livello di cifratura attualmente disponibile",
+            "feature": "Proteggi la tua privacy con cifratura militare.",
+            "meritList": [
+                {
+                    "text": "Cifratura militare"
+                },
+                
+                {
+                    "text": "Eliminare quasi ogni servizio di streaming"
+                },
+                {
+                    "text": "Nessuna politica di registrazione o di tracciamento"
+                },
+                {
+                    "text": "Dispositivi simultanei fino a 6"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
             "name": "AtlasVPN",
             "key": "atlasvpn",
             "keyname": "",
@@ -272,10 +344,10 @@
             "logoSrc": "/data/img/atlasvpn.png",
             "picture":"",
             "horizontalLogoSrc":"",
-            "reviews": 2864,
+            "reviews": 1864,
             "price": 2.99,
             "rate": {
-                "score": "7.8",
+                "score": "7.3",
                 "max": 10
             },
             "saveNum": 77,
@@ -298,76 +370,6 @@
                 
             ],
             "system": ["android","ios","mac","windows"]
-        },
-        
-        {
-            "name": "PrivateVPN",
-            "key": "privatevpn",
-            "keyname": "",
-            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44",
-            "logoSrc": "/data/img/private.png",
-            "picture":"/data/img",
-            "horizontalLogoSrc":"",
-            "reviews": 2546,
-            "price": 0,
-            "rate": {
-                "score": "7.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "PrivateVPN: VPN economica con straordinarie capacità di streaming",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Connettiti in modo sicuro a oltre 60 paesi"
-                 },
-                 {
-                     "text": "P2P / torrenting illimitato e privato"
-                 },
-                 {
-                     "text": "Funziona con Netflix e altri servizi"
-                 },
-                 {
-                     "text": "prezzo accessibile"
-                }
-            ],
-            "system": ["android","ios","mac","linux","windows"]
-        },
-        
-        {
-            "name": "Ivacy",
-            "key": "ivacy",
-            "keyname": "",
-            "link": "https://www.ivacy.com/deals/?aff=92606",
-            "logoSrc": "/data/img/IVACYVPN.png",
-            "picture":"/data/img",
-            "horizontalLogoSrc":"",
-            "reviews": 1862,
-            "price": 0,
-            "rate": {
-                "score": "7.3",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "Ivacy VPN: rimani sempre anonimo ",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Piani a lungo termine molto economici"
-                 },
-                 {
-                     "text": "2000+ server in oltre 100 posizioni"
-                 },
-                 {
-                     "text": "Sblocca Netflix, iPlayer"
-                 },
-                 {
-                     "text": "10 dispositivi di accesso simultaneo"
-                }
-            ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv"]
         }
         
     ]

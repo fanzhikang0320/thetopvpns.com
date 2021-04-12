@@ -23,7 +23,8 @@
         "corner": {
             "first": "Most Popular",
             "second": "Best Value For Money",
-            "third": "Most Secure"
+            "third": "Most Secure",
+            "new_third": "Fastest VPN"
         },
         "updated": "Last updated",
         "visit": "Visit",
