@@ -52,7 +52,7 @@
             "reviews": 3686,
             "price": 2.49,
             "rate": {
-                "score": "9.5",
+                "score": "9.6",
                 "max": 10
             },
             "saveNum": 77,
@@ -81,41 +81,41 @@
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
-            "name": "PrivateVPN",
-            "key": "privatevpn",
-            "keyname": "",
-            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44&a_bid=548b0ca6",
-            "logoSrc": "/data/img/private.png",
-            "picture":"/data/img/private-vpn-p.png",
-            "horizontalLogoSrc":"/data/img/private-vpn-h.png",
-            "reviews": 3546,
-            "price": 0,
+            "name": "ExpressVPN",
+            "key": "expressVPN",
+            "keyname": "Express-VPN-Review",
+            "link": "https://www.xvbelink.com/?a_fid=5176798",
+            "logoSrc": "/data/img/ExpressVPN.png",
+            "picture":"/data/img/ExpressVPN-p.png",
+            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
+            "reviews": 3521,
+            "price": 6.67,
             "rate": {
                 "score": "9.1",
                 "max": 10
             },
-            "saveNum": 77,
             "speaker": "",
-            "slogan": "PrivateVPN: Budget VPN avec des capacités de streaming impressionnantes",
-            "feature": "Budget VPN avec des capacités de streaming impressionnantes",
+            "saveNum": 77,
+            "slogan": "ExpressVPN: La technologie VPN la plus avancée pour un streaming ultra-rapide",
+            "feature": "L'un des VPN les plus populaires sur le marché, permet d'accéder facilement à un contenu restreint.",
             "meritList": [
                 {
-                    "text": "Aucun tampon ou longue attente lors de la navigation"
+                    "text": "Un des services VPN les plus rapides du marché"
                 },
                 {
-                    "text": "Connectez-vous en toute sécurité à plus de 60 pays"
+                    "text": "Connectez-vous en toute sécurité à plus de 90 pays avec plus de 3000 serveurs"
                 },
                 {
-                    "text": "P2P/torrent illimité et privé"
+                    "text": "Débloquer Netflix, BBC iPlayer, Disney+& plus"
                 },
                 {
-                    "text": "Travailler avec Netflix & plus"
+                    "text": "Une politique de zéro-connexion à 100%"
                 },
                 {
-                    "text": "Prix abordable"
+                    "text": "Plus de 3000 serveurs dans 90 pays"
                 }
             ],
-            "system": ["android","ios","mac","linux","windows"]
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
             "name": "Norton",
@@ -155,44 +155,44 @@
             ],
             "system": ["android","ios","mac","windows","linux"]
         },
-        
         {
-            "name": "ExpressVPN",
-            "key": "expressVPN",
-            "keyname": "Express-VPN-Review",
-            "link": "https://www.xvbelink.com/?a_fid=5176798",
-            "logoSrc": "/data/img/ExpressVPN.png",
-            "picture":"/data/img/ExpressVPN-p.png",
-            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3321,
-            "price": 6.67,
+            "name": "PrivateVPN",
+            "key": "privatevpn",
+            "keyname": "",
+            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44&a_bid=548b0ca6",
+            "logoSrc": "/data/img/private.png",
+            "picture":"/data/img/private-vpn-p.png",
+            "horizontalLogoSrc":"/data/img/private-vpn-h.png",
+            "reviews": 3346,
+            "price": 0,
             "rate": {
                 "score": "8.5",
                 "max": 10
             },
-            "speaker": "",
             "saveNum": 77,
-            "slogan": "ExpressVPN: La technologie VPN la plus avancée pour un streaming ultra-rapide",
-            "feature": "L'un des VPN les plus populaires sur le marché, permet d'accéder facilement à un contenu restreint.",
+            "speaker": "",
+            "slogan": "PrivateVPN: Budget VPN avec des capacités de streaming impressionnantes",
+            "feature": "Budget VPN avec des capacités de streaming impressionnantes",
             "meritList": [
                 {
-                    "text": "Un des services VPN les plus rapides du marché"
+                    "text": "Aucun tampon ou longue attente lors de la navigation"
                 },
                 {
-                    "text": "Connectez-vous en toute sécurité à plus de 90 pays avec plus de 3000 serveurs"
+                    "text": "Connectez-vous en toute sécurité à plus de 60 pays"
                 },
                 {
-                    "text": "Débloquer Netflix, BBC iPlayer, Disney+& plus"
+                    "text": "P2P/torrent illimité et privé"
                 },
                 {
-                    "text": "Une politique de zéro-connexion à 100%"
+                    "text": "Travailler avec Netflix & plus"
                 },
                 {
-                    "text": "Plus de 3000 serveurs dans 90 pays"
+                    "text": "Prix abordable"
                 }
             ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","linux","windows"]
         },
+        
 
         
         {

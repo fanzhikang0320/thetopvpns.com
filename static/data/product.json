@@ -41,6 +41,8 @@
             "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         
+        
+        
         {
             "name": "Surfshark",
             "key": "surfshark",
@@ -81,42 +83,39 @@
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
         {
-            "name": "PrivateVPN",
-            "key": "privatevpn",
-            "keyname": "",
-            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44&a_bid=548b0ca6",
-            
-            "logoSrc": "/data/img/private.png",
-            "picture":"/data/img/private-vpn-p.png",
-            "horizontalLogoSrc":"/data/img/private-vpn-h.png",
-            "reviews": 3546,
-            "price": 0,
+            "name": "ExpressVPN",
+            "key": "expressVPN",
+            "keyname": "Express-VPN-Review",
+            "link": "https://www.xvbelink.com/?a_fid=5176798",
+            "logoSrc": "/data/img/ExpressVPN.png",
+            "picture":"/data/img/ExpressVPN-p.png",
+            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
+            "reviews": 3521,
+            "price": 6.67,
             "rate": {
                 "score": "9.1",
                 "max": 10
             },
-            "saveNum": 77,
             "speaker": "",
-            "slogan": "PrivateVPN: Budget VPN With Impressive Streaming Capabilities",
-            "feature": "Budget VPN With Impressive Streaming Capabilities",
+            "saveNum": 77,
+            "slogan": "ExpressVPN: Most Advanced VPN Technology for Ultra-fast Streaming",
+            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
             "meritList": [
+                
                 {
-                    "text": "No buffering or long waits when browsing"
+                    "text": "Connect securely to 90+ countries with 3000+ servers"
                 },
                 {
-                    "text": "Connect securely to 60+ countries"
+                    "text": "Unblock Netflix, BBC iPlayer, Disney+& more"
                 },
                 {
-                    "text": "Unlimited & private P2P/torrenting"
+                    "text": "100% zero-logs policy"
                 },
                 {
-                    "text": "Work with Netflix & more"
-                },
-                {
-                    "text": "Affordable price"
+                    "text": "3000+servers in 90 countries"
                 }
             ],
-            "system": ["android","ios","mac","linux","windows"]
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
         },
         {
             "name": "Norton",
@@ -158,39 +157,42 @@
         },
         
         {
-            "name": "ExpressVPN",
-            "key": "expressVPN",
-            "keyname": "Express-VPN-Review",
-            "link": "https://www.xvbelink.com/?a_fid=5176798",
-            "logoSrc": "/data/img/ExpressVPN.png",
-            "picture":"/data/img/ExpressVPN-p.png",
-            "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3321,
-            "price": 6.67,
+            "name": "PrivateVPN",
+            "key": "privatevpn",
+            "keyname": "",
+            "link": "https://affiliate.privatevpn.com/scripts/click.php?a_aid=5fb4c9f4a1a44&a_bid=548b0ca6",
+            
+            "logoSrc": "/data/img/private.png",
+            "picture":"/data/img/private-vpn-p.png",
+            "horizontalLogoSrc":"/data/img/private-vpn-h.png",
+            "reviews": 3346,
+            "price": 0,
             "rate": {
                 "score": "8.5",
                 "max": 10
             },
-            "speaker": "",
             "saveNum": 77,
-            "slogan": "ExpressVPN: Most Advanced VPN Technology for Ultra-fast Streaming",
-            "feature": "One of the most popular VPNs in the market, provides easy access to restricted content.",
+            "speaker": "",
+            "slogan": "PrivateVPN: Budget VPN With Impressive Streaming Capabilities",
+            "feature": "Budget VPN With Impressive Streaming Capabilities",
             "meritList": [
-                
                 {
-                    "text": "Connect securely to 90+ countries with 3000+ servers"
+                    "text": "No buffering or long waits when browsing"
                 },
                 {
-                    "text": "Unblock Netflix, BBC iPlayer, Disney+& more"
+                    "text": "Connect securely to 60+ countries"
                 },
                 {
-                    "text": "100% zero-logs policy"
+                    "text": "Unlimited & private P2P/torrenting"
                 },
                 {
-                    "text": "3000+servers in 90 countries"
+                    "text": "Work with Netflix & more"
+                },
+                {
+                    "text": "Affordable price"
                 }
             ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+            "system": ["android","ios","mac","linux","windows"]
         },
         {
             "name": "PIA",

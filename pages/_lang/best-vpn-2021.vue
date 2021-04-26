@@ -305,7 +305,23 @@ export default {
 
           // 判断是Google的流量还是bing的流量
 
-          if (typeof gclid != 'undefined') {
+          // if (typeof gclid != 'undefined') {
+
+          //   if (key == 'nordvpn') {
+          //     return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
+          //   } else if (key == 'surfshark') {
+          //     return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
+          //   }
+
+          // } else 
+          
+          if (typeof msclkid != 'undefined') {
+
+            if (key == 'surfshark' || key == 'nordvpn') {
+              return `${basePath}${url}?msclkid=${msclkid}&keyword=${keyword}&TargetId=${targetId}&CampaignId=${campaignid}`
+            }
+
+          } else {
 
             if (key == 'nordvpn') {
               return `${basePath}https://hotsale.featuredproduct.news/e527db6e-9905-4870-82a5-d7aedfded2c3?gclid=${gclid}&keyword=${keyword}&TargetId=${targetId}`
@@ -313,14 +329,9 @@ export default {
               return `${basePath}https://hotsale.featuredproduct.news/e3ffc5b6-da2e-471b-8e42-2802426d5e8e?keyword=${keyword}&targetid=${targetId}&gclid=${gclid}`
             }
 
-          } else if (typeof msclkid != 'undefined') {
-
-            if (key == 'surfshark' || key == 'nordvpn') {
-              return `${basePath}${url}?msclkid=${msclkid}&keyword=${keyword}&TargetId=${targetId}&CampaignId=${campaignid}`
-            }
-
+            return `${basePath}${url}`;
           }
-          return `${basePath}${url}`;
+          
           
         }
       // 获取当前语言环境
