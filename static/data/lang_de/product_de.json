@@ -80,6 +80,110 @@
             ],
             "system": ["android","ios","mac","linux","windows","smartTv","chrome","firefox"]
         },
+        
+        {
+            "name": "CyberGhost",
+            "keyname": "CyberGhost-Review",
+            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
+            "logoSrc": "/data/img/CyberGhost.png",
+            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
+            "picture":"/data/img/CyberGhost-p.png",
+            "reviews": 3524,
+            "price": 2.75,
+            "rate": {
+                "score": "9.1",
+                "max": 10
+            },
+            "saveNum": 79,
+            "speaker": "",
+            "slogan": "CyberGhost: Schnell wachsender VPN-Anbieter",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Sichere Verbindung zu 90+ Ländern"
+                },
+                {
+                    "text": "Schaltet Netflix, BBC iPlayer, Disney+ & mehr frei"
+                },
+                {
+                    "text": "Keine Benutzerprotokolle & keine IP-Adresslecks"
+                },
+                {
+                    "text": "24/7 live chat support"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
+        },
+        {
+            "name": "BullGuard",
+            "key": "bullguardVPN",
+            "keyname": "",
+            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
+            "logoSrc": "/data/img/bullguard.png",
+            "picture":"/data/img/bullguard-p.png",
+            "horizontalLogoSrc":"",
+            "reviews": 3460,
+            "price": 0,
+            "rate": {
+                "score": "8.8",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "BullGuard VPN: Verwenden Sie die beste Verschlüsselung zur Zeit verfügbar",
+            "feature": "Sichern Sie sich Ihre Privatsphäre mit Geheimverschlüsselung.",
+            "meritList": [
+                {
+                    "text": "Militärische Verschlüsselung"
+                },
+                
+                {
+                    "text": "Entfernen Sie fast jeden Streaming-Dienst"
+                },
+                {
+                    "text": "Keine Protokollierungs- oder Tracking-Richtlinien"
+                },
+                {
+                    "text": "Bis zu 6 gleichzeitige Geräte"
+                }
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
+        {
+            "name": "AtlasVPN",
+            "key": "atlasvpn",
+            "keyname": "",
+            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
+            "logoSrc": "/data/img/atlasvpn.png",
+            "picture":"",
+            "horizontalLogoSrc":"",
+            "reviews": 3364,
+            "price": 2.99,
+            "rate": {
+                "score": "8.5",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "AtlasVPN: Eine kostengünstige Lösung für Ihren täglichen Bedarf",
+            "feature": "Streamen Sie schnell auf einem sicheren Netword.Enthält Bonusfunktionen wie Malware-Schutz.Genießen Sie erstaunliche Features zu einem tollen Preis!",
+            "meritList": [
+                {
+                    "text": "Günstiger Preis für 3-jährige Verpackung"
+                },
+                {
+                    "text": "Keine Aktivitätsprotokollierung und vollständige Verschlüsselung"
+                },
+                {
+                    "text": "Unbegrenzte geschützte Geräte"
+                },
+                {
+                    "text": "Malware- und Phishing-Schutz"
+                }
+                
+            ],
+            "system": ["android","ios","mac","windows"]
+        },
         {
             "name": "ExpressVPN",
             "key": "expressVPN",
@@ -88,10 +192,10 @@
             "logoSrc": "/data/img/ExpressVPN.png",
             "picture":"/data/img/ExpressVPN-p.png",
             "horizontalLogoSrc":"/data/img/EXPRESS-h.png",
-            "reviews": 3521,
+            "reviews": 3021,
             "price": 6.67,
             "rate": {
-                "score": "9.1",
+                "score": "8.0",
                 "max": 10
             },
             "speaker": "",
@@ -125,10 +229,10 @@
             "logoSrc": "/data/img/Norton.png",
             "horizontalLogoSrc": "/data/img/Norton-h.png",
             "picture":"/data/img/Norton-p.png",
-            "reviews": 3424,
+            "reviews": 2824,
             "price": 2.75,
             "rate": {
-                "score": "8.8",
+                "score": "7.8",
                 "max": 10
             },
             "saveNum": 79,
@@ -147,9 +251,6 @@
                 },
                 {
                     "text": "Eingebaute Ad-Tracker-Blockierung"
-                },
-                {
-                    "text": "Einfach und einfach zu bedienen"
                 }
                 
             ],
@@ -163,10 +264,10 @@
             "logoSrc": "/data/img/private.png",
             "picture":"/data/img/private-vpn-p.png",
             "horizontalLogoSrc":"/data/img/private-vpn-h.png",
-            "reviews": 3346,
+            "reviews": 2546,
             "price": 0,
             "rate": {
-                "score": "8.5",
+                "score": "7.5",
                 "max": 10
             },
             "saveNum": 77,
@@ -185,116 +286,9 @@
                 },
                 {
                     "text": "Zusammenarbeit mit Netflix & mehr"
-                },
-                {
-                    "text": "Erschwinglicher Preis"
                 }
             ],
             "system": ["android","ios","mac","linux","windows"]
-        },
-        
-        {
-            "name": "CyberGhost",
-            "keyname": "CyberGhost-Review",
-            "link": "https://www.cyberghostvpn.com/offer/vpncollection_kxq8ulmmg",
-            "logoSrc": "/data/img/CyberGhost.png",
-            "horizontalLogoSrc": "/data/img/CYBERGHOST-h.png",
-            "picture":"/data/img/CyberGhost-p.png",
-            "reviews": 3024,
-            "price": 2.75,
-            "rate": {
-                "score": "8.0",
-                "max": 10
-            },
-            "saveNum": 79,
-            "speaker": "",
-            "slogan": "CyberGhost: Schnell wachsender VPN-Anbieter",
-            "feature": "",
-            "meritList": [
-                {
-                    "text": "Sichere Verbindung zu 90+ Ländern"
-                },
-                {
-                    "text": "Schaltet Netflix, BBC iPlayer, Disney+ & mehr frei"
-                },
-                {
-                    "text": "Keine Benutzerprotokolle & keine IP-Adresslecks"
-                },
-                {
-                    "text": "24/7 live chat support"
-                }
-            ],
-            "system": ["android","ios","mac","router","linux","windows","gameConsole","smartTv","chrome","firefox"]
-        },
-        {
-            "name": "BullGuard",
-            "key": "bullguardVPN",
-            "keyname": "",
-            "link": "https://dl-downfast.com/?a=126374&o=99949&c=0&mt=5",
-            "logoSrc": "/data/img/bullguard.png",
-            "picture":"/data/img/bullguard-p.png",
-            "horizontalLogoSrc":"",
-            "reviews": 2860,
-            "price": 0,
-            "rate": {
-                "score": "7.8",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "BullGuard VPN: Verwenden Sie die beste Verschlüsselung zur Zeit verfügbar",
-            "feature": "Sichern Sie sich Ihre Privatsphäre mit Geheimverschlüsselung.",
-            "meritList": [
-                {
-                    "text": "Militärische Verschlüsselung"
-                },
-                
-                {
-                    "text": "Entfernen Sie fast jeden Streaming-Dienst"
-                },
-                {
-                    "text": "Keine Protokollierungs- oder Tracking-Richtlinien"
-                },
-                {
-                    "text": "Bis zu 6 gleichzeitige Geräte"
-                }
-            ],
-            "system": ["android","ios","mac","windows"]
-        },
-        {
-            "name": "AtlasVPN",
-            "key": "atlasvpn",
-            "keyname": "",
-            "link": "http://atlasvpn.go2cloud.org/aff_c?offer_id=34&aff_id=161",
-            "logoSrc": "/data/img/atlasvpn.png",
-            "picture":"",
-            "horizontalLogoSrc":"",
-            "reviews": 2564,
-            "price": 2.99,
-            "rate": {
-                "score": "7.5",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "AtlasVPN: Eine kostengünstige Lösung für Ihren täglichen Bedarf",
-            "feature": "Streamen Sie schnell auf einem sicheren Netword.Enthält Bonusfunktionen wie Malware-Schutz.Genießen Sie erstaunliche Features zu einem tollen Preis!",
-            "meritList": [
-                {
-                    "text": "Günstiger Preis für 3-jährige Verpackung"
-                },
-                {
-                    "text": "Keine Aktivitätsprotokollierung und vollständige Verschlüsselung"
-                },
-                {
-                    "text": "Unbegrenzte geschützte Geräte"
-                },
-                {
-                    "text": "Malware- und Phishing-Schutz"
-                }
-                
-            ],
-            "system": ["android","ios","mac","windows"]
         },
         {
             "name": "TotalVPN",
