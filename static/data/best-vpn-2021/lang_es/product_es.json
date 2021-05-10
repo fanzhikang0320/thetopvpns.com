@@ -198,44 +198,6 @@
             "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv","chrome","firefox"]
         },
         
-        
-        {
-            "name": "PIA",
-            "key": "pia",
-            "keyname": "",
-            "link": "https://privateinternetaccess.com/offer/gen_2jq97fevw",
-            "logoSrc": "/data/img/pravateinternetaccess.png",
-            "picture":"/data/img/PIA-p.png",
-            "horizontalLogoSrc":"/data/img/PIALogo-h.png",
-            "reviews": 3221,
-            "price": 2.85,
-            "rate": {
-                "score": "8.3",
-                "max": 10
-            },
-            "saveNum": 77,
-            "speaker": "",
-            "slogan": "PIA: El servicio VPN líder en el mundo",
-            "feature": "Una VPN económica con impresionantes capacidades de streaming",
-            "meritList": [
-                
-                {
-                    "text": "Más de 3000 servidores en 48 países"
-                },
-                {
-                    "text": "Ancho de banda sin límite, soporte para P2P"
-                },
-                {
-                    "text": "Hasta 10 dispositivos de conexión simultánea"
-                },
-                {
-                    "text": "Bloquea los anuncios, los rastreadores y el malware"
-                }
-                
-            ],
-            "system": ["android","ios","mac","router","linux","windows"]
-        },
-        
         {
             "name": "CyberGhost",
             "keyname": "CyberGhost-Reseña",
@@ -374,6 +336,40 @@
                 }
             ],
             "system": ["android","ios","mac","windows"]
+        },
+        {
+            "name": "Ivacy",
+            "key": "ivacy",
+            "keyname": "",
+            "link": "https://www.ivacy.com/deals/?aff=92606",
+            "logoSrc": "/data/img/IVACYVPN.png",
+            "picture":"/data/img",
+            "horizontalLogoSrc":"",
+            "reviews": 1662,
+            "price": 0,
+            "rate": {
+                "score": "7.1",
+                "max": 10
+            },
+            "saveNum": 77,
+            "speaker": "",
+            "slogan": "Ivacy VPN: Siempre te mantiene anónimo",
+            "feature": "",
+            "meritList": [
+                {
+                    "text": "Planes a largo plazo muy baratos"
+                },
+                {
+                    "text": "Más de 2000 servidores en más de 100 lugares"
+                },
+                {
+                    "text": "Desbloquea Netflix y iPlayer"
+                },
+                {
+                    "text": "Inicio de sesión simultáneo de 10 dispositivos"
+                }
+            ],
+            "system": ["android","ios","mac","router","linux","windows","consola de juegos","smartTv"]
         }
     ]
 }
